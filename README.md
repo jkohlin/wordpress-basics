@@ -1,4 +1,7 @@
 # wordpress-basics
 Learn Wordpress and how to build a new theme from scratch
 
-1. What is Wordpress?
+Understanding Wordpress
+
+### What is Wordpress?
+	1. How Wordpress works
