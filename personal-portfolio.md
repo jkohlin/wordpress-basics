@@ -1,10 +1,8 @@
 ## Assignment 2 - Personal portfolio
 
-We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust another already built theme, but rather built it from scratch.
+We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme, instead we will build it from scratch.
 
-Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live server. For further development and maintenance we recommended that you optimize both theme and workflow, which we will covered briefly in the final words.
-
-For this course you will be provided with a personal Github repository, prepared with all the files and folders needed to activate and start coding your theme.
+Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.
 
 ### Prerequisites
 Before anything else you will need the following:
@@ -21,16 +19,15 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 3. Change the theme's name to anything you want, and perform a `git push` to the Github repository.
 4. Activate your new theme from Wordpress admin.
 
-### 2 - Page layout
-Now when your theme is active it's time to lay out the site's structure. In Wordpress admin, create the following page structure:
+
+### 2 - Page structure
+The content is the core of a website and should be the first thing to plan. A this assignment is about building a Wordpress theme only, we will assume the content plan already has been laid out for us. The content will consist of a person bio and the work. The following pages should be created via Wordpress admin:
 
    - Home
-      - About me
-      - Projects
-      - Contact
+   - About
+   - Contact
 
-Make sure to add something in each of the pages's content field. A couple of lines describing the page's purpose is recommended.
+For now, add some example content on each page. A good practice is to describe the purpose of the page. We will come back and change the content later.
 
-### 3 - 
-
-
+### 3 - Style plan
+You will be presented 
