@@ -30,7 +30,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 | About  | Page  | Personal description and following options.  |
 | Contact  | Page  | Contact information and form.  |
 
-**Note: For now all pages will use the same default template (index.php).**
+**Note: For now all pages will use the default template (index.php).**
 
 #### Custom Post types
 | Name  | Slug |Purpose |
