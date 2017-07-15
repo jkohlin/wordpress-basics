@@ -20,17 +20,18 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 4. Activate your new theme from Wordpress admin.
 
 
-### 2 - Page structure
-The content is the core of a website and should be the first thing to plan. A this assignment is about building a Wordpress theme only, we will assume the content plan already has been laid out for us. 
+### 2 - Content is king
+The content is the core of any website and should be the first thing you plan. As this assignment is about building a Wordpress themes, we will assume the content plan already has been laid out.
 
-   
-| Title  | Template  | Purpose  |
+| Title  | Template  | Purpose  | Post type  |
 |---|---|---|
-| Projects  | Default  | List all projects  |
-| About  | Default  | Personal description and following options  |
-| Contact  | Default  | Contact information and form  |
+| Projects  | Default  | List all projects  |  Page
+| About  | Page  | Personal description and following options  | Page |
+| Contact  | Contact  | Contact information and form  | Page |
+
+1. Create the pages following the content plan above, and add some example content.
 
 **Note: For now all pages will use the same default template (index.php).**
 
-### 3 - Style plan
-You will be presented
+### 3 - Styleguide
+As shown in the content plan, 
