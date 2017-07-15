@@ -2,7 +2,7 @@
 
 We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme, instead we will build it from scratch.
 
-Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.
+**Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.**
 
 ### Prerequisites
 Before anything else you will need the following:
@@ -21,13 +21,16 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 
 
 ### 2 - Page structure
-The content is the core of a website and should be the first thing to plan. A this assignment is about building a Wordpress theme only, we will assume the content plan already has been laid out for us. The content will consist of a person bio and the work. The following pages should be created via Wordpress admin:
+The content is the core of a website and should be the first thing to plan. A this assignment is about building a Wordpress theme only, we will assume the content plan already has been laid out for us. 
 
-   - Home
-   - About
-   - Contact
+   
+| Title  | Template  | Purpose  |
+|---|---|---|
+| Projects  | Default  | List all projects  |
+| About  | Default  | Personal description and following options  |
+| Contact  | Default  | Contact information and form  |
 
-For now, add some example content on each page. A good practice is to describe the purpose of the page. We will come back and change the content later.
+**Note: For now all pages will use the same default template (index.php).**
 
 ### 3 - Style plan
-You will be presented 
+You will be presented
