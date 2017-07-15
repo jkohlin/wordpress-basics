@@ -1,4 +1,4 @@
-## Assignment 2 - Personal portfolio
+# Assignment 2 - Personal portfolio
 
 We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme, instead we will build it from scratch.
 
@@ -11,7 +11,7 @@ Before anything else you will need the following:
 * Git installed locally
 * A Github account
 
-### 1 - Theme setup
+## 1 - Theme setup
 
 #### Tasks
 1. Generate your personal theme repository:
@@ -21,7 +21,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 4. Activate your new theme from Wordpress admin.
 
 
-### 2 - Content and structure
+## 2 - Content and structure
 
 #### Pages
 | Title  | Template  | Purpose  |
@@ -41,5 +41,5 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 1. Create the pages following the content plan above, and add some example content.
 
 
-### 3 - Styleguide
+## 3 - Styleguide
 As shown in the content plan, we will need two 
