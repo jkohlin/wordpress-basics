@@ -2,7 +2,7 @@
 
 We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme, instead we will build it from scratch.
 
-**Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.**
+> Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.
 
 ### Prerequisites
 Before anything else you will need the following:
@@ -32,7 +32,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 | About  | Page  | Personal description and following options.  |
 | Contact  | Page  | Contact information and form.  |
 
-**Note: For now all pages will use the default template (index.php).**
+> Note: For now all pages will use the default template (index.php).
 
 #### Custom Post types
 | Name  | Slug |Purpose |
