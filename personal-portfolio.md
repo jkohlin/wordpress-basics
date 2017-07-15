@@ -37,7 +37,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 #### Custom Post types
 | Name  | Slug | Template | Purpose |
 |---|---|---|---|
-| Project  | project | project (single-project.php) | To show of your work. |
+| Project  | project | Project (single-project.php) | To show of your work. |
 
 #### Tasks
 1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
