@@ -35,12 +35,13 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 > Note: For now all pages will use the default template (index.php).
 
 #### Custom Post types
-| Name  | Slug |Purpose |
-|---|---|---|
-| Project  | project | To show of your work. |
+| Name  | Slug | Template | Purpose |
+|---|---|---|---|
+| Project  | project | project | To show of your work. |
 
 #### Tasks
-1. Create the pages following the content plan above, and add some example content.
+1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
+2. Register the custom post types from the content plan above.
 
 
 ## 3 - Styleguide
