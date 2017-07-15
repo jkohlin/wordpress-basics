@@ -13,6 +13,7 @@ Before anything else you will need the following:
 
 ### 1 - Theme setup
 
+#### Tasks
 1. Generate your personal theme repository:
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure to pick the SSH clone URL).
@@ -22,17 +23,23 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 
 ### 2 - Content and structure
 
-| Title  | Template  | Purpose  | Post type  |
+#### Pages
+| Title  | Template  | Purpose  |
 |---|---|---|
-| Projects  | Default  | List all projects.  |  Page
-| About  | Page  | Personal description and following options.  | Page |
-| Contact  | Page  | Contact information and form.  | Page |
-| 404  | 404  | Show error message Page not found.  | Page |
-| Search  | Page  | Present search result from site search.  | Page |
+| Home  | Default  | List all projects.  |
+| About  | Page  | Personal description and following options.  |
+| Contact  | Page  | Contact information and form.  |
 
-1. Create the pages following the content plan above, and add some example content.
-2. 
 **Note: For now all pages will use the same default template (index.php).**
+
+#### Custom Post types
+| Name  | Slug |Purpose |
+|---|---|---|
+| Project  | project | To show of your work. |
+
+#### Tasks
+1. Create the pages following the content plan above, and add some example content.
+
 
 ### 3 - Styleguide
 As shown in the content plan, we will need two 
