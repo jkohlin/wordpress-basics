@@ -12,6 +12,7 @@ Before anything else you will need the following:
 * A Github account
 
 ## 1 - Theme setup
+---
 
 #### Tasks
 1. Generate your personal theme repository:
@@ -22,6 +23,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 
 
 ## 2 - Content and structure
+---
 
 #### Pages
 | Title  | Template  | Purpose  |
@@ -42,4 +44,6 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 
 
 ## 3 - Styleguide
+---
+
 As shown in the content plan, we will need two 
