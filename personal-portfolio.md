@@ -28,16 +28,16 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 #### Pages
 | Title  | Template  | Purpose  |
 |---|---|---|
-| Home  | Default  | List all projects.  |
-| About  | Page  | Personal description and following options.  |
-| Contact  | Page  | Contact information and form.  |
+| Home  | Default (index.php) | List all projects.  |
+| About  | Page (page.php)  | Personal description and following options.  |
+| Contact  | Page (page.php)  | Contact information and form.  |
 
 > Note: For now all pages will use the default template (index.php).
 
 #### Custom Post types
 | Name  | Slug | Template | Purpose |
 |---|---|---|---|
-| Project  | project | project | To show of your work. |
+| Project  | project | project (single-project.php) | To show of your work. |
 
 #### Tasks
 1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
