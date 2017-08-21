@@ -37,7 +37,7 @@ We need to make sure Wordpress knows about what kind of content we will be using
 ## 3 - Content and structure
 ---
 
-It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages, fill them with some example content and 
+It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages. Enter som placeholder content and publish the pages.  
 
 #### Pages
 | Title  | Template  | Purpose  |
