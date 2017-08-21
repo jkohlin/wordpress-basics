@@ -21,11 +21,23 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 3. Change the theme's name to anything you want, and perform a `git push` to the Github repository.
 4. Activate your new theme from Wordpress admin.
 
+## 2 - Post types
+We need to make sure Wordpress knows about what kind of content we will be using. For this project we will need only one custom post types, 'projects'. 
 
-## 2 - Content and structure
+#### Custom Post types
+| Name  | Slug | Template | Purpose |
+|---|---|---|---|
+| Project  | project | Project (single-project.php) | To show of your work. |
+
+#### Tasks
+1. In functions.php, register the new post type and make sure it shows up in your Wordpress Dashboard menu.
+
+
+
+## 3 - Content and structure
 ---
 
-Your portfolio will use the following pages, which now is up to you to create via the dashboard. You don't need to enter any content yet, but make sure to fill out the title field.
+It's time to create the backbone of every website, the content. Follow the structure plan below and create the content via Wordpress dashboard.
 
 #### Pages
 | Title  | Template  | Purpose  |
@@ -36,15 +48,10 @@ Your portfolio will use the following pages, which now is up to you to create vi
 
 > Note: For now all pages will use the default template (index.php).
 
-#### Custom Post types
-| Name  | Slug | Template | Purpose |
-|---|---|---|---|
-| Project  | project | Project (single-project.php) | To show of your work. |
 
 #### Tasks
 1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
-2. Register the custom post types from the content plan above.
-
+2. Add two example posts within the projects post type, and add some short but descriptive example text in their content field.
 
 ## 3 - Styleguide
 ---
