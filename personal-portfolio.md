@@ -22,7 +22,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 4. Activate your new theme from Wordpress admin.
 
 ## 2 - Post types
-We need to make sure Wordpress knows about what kind of content we will be using. For this project we will need only one custom post types, 'projects'. 
+We need to make sure Wordpress knows about what kind of content we will be using. For this project we will need only one custom post type, which we will use for storing our creative content. We will call our ucstom post type "Projects".
 
 #### Custom Post types
 | Name  | Slug | Template | Purpose |
