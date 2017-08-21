@@ -1,6 +1,6 @@
 # Assignment 2 - Personal portfolio
 
-We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme. However we will begin working on something called a starter theme, which gives us all files needed to activate our theme and see the content.
+We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme. However we will begin working on something called a starter theme, which gives us all files needed to activate our theme and preview our content.
 
 > Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.
 
