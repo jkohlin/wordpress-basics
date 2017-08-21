@@ -37,14 +37,14 @@ We need to make sure Wordpress knows about what kind of content we will be using
 ## 3 - Content and structure
 ---
 
-It's time to create the backbone of every website, the content. Follow the structure plan below and create the content via Wordpress dashboard.
+It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages, fill them with some example content and 
 
 #### Pages
 | Title  | Template  | Purpose  |
 |---|---|---|
-| Home  | Default (index.php) | List all projects.  |
-| About  | Page (page.php)  | Personal description and following options.  |
-| Contact  | Page (page.php)  | Contact information and form.  |
+| Home  | Default | List all projects.  |
+| About  | Default | Personal description and following options.  |
+| Contact  | Default | Contact information and form.  |
 
 > Note: For now all pages will use the default template (index.php).
 
@@ -53,7 +53,7 @@ It's time to create the backbone of every website, the content. Follow the struc
 1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
 2. Add two example posts within the projects post type, and add some short but descriptive example text in their content field.
 
-## 3 - Styleguide
+## 3 - Template
 ---
 
-As shown in the content plan, we will need two
+Now when we have some content to work with, let's create the templates to display it.
