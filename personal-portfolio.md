@@ -25,6 +25,8 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 ## 2 - Content and structure
 ---
 
+Your portfolio will use the following pages, which now is up to you to create via the dashboard. You don't need to enter any content yet, but make sure to fill out the title field.
+
 #### Pages
 | Title  | Template  | Purpose  |
 |---|---|---|
@@ -47,4 +49,4 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 ## 3 - Styleguide
 ---
 
-As shown in the content plan, we will need two 
+As shown in the content plan, we will need two
