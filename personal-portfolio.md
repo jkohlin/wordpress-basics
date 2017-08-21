@@ -1,6 +1,6 @@
 # Assignment 2 - Personal portfolio
 
-We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme, instead we will build it from scratch.
+We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, meaning we will not extend or adjust an already built theme. However we will begin working on something called a starter theme, which gives us all files needed to activate our theme and see the content.
 
 > Note: After the assignment you will have a simple yet fully working Wordpress theme ready to be used on a live website. For further development and maintenance we recommended that you optimize both the theme and development workflow.
 
@@ -32,12 +32,10 @@ We need to make sure Wordpress knows about what kind of content we will be using
 #### Tasks
 1. In functions.php, register the new post type and make sure it shows up in your Wordpress Dashboard menu.
 
-
-
 ## 3 - Content and structure
 ---
 
-It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages. Enter som placeholder content and publish the pages.  
+It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages. Enter som placeholder content and publish the pages.
 
 #### Pages
 | Title  | Template  | Purpose  |
@@ -48,7 +46,6 @@ It's time to create the backbone of our website - the content. Follow the struct
 
 > Note: For now all pages will use the default template (index.php).
 
-
 #### Tasks
 1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
 2. Add two example posts within the projects post type, and add some short but descriptive example text in their content field.
@@ -56,4 +53,4 @@ It's time to create the backbone of our website - the content. Follow the struct
 ## 3 - Template
 ---
 
-Now when we have some content to work with, let's create the templates to display it.
+Now when we have some content to work with, let's create the templates to display it. At the moment all of our three pages uses the default template that came with out starter theme. That is enough to 
