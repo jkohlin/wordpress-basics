@@ -19,7 +19,7 @@ Your theme will be version controlled with Git, and have a personal remote repos
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure to pick the SSH clone URL).
 
-## 2 - Base files
+## 2 - Theme setup
 In the folder you just cloned WE NOW NEED TO ADDthe very basic files required by Wordpress to treat the files as a theme. The files are empty, and it's now up to you to fill them out with the required code.
 
 #### Tasks
