@@ -30,14 +30,13 @@ In the folder you just cloned into your themes folder you'll find the very basic
         - index.php
         
 2. Add the following information to style.css and replace the content with your personal information.
-
-
-```/*
-Theme Name: My Theme Name
-Theme URI: http://farkost.se
-Author: Johan Kohlin
-
-*/```
+```
+	/*
+	Theme Name: My Theme Name
+	Theme URI: http://farkost.se
+	Author: Johan Kohlin
+	*/
+````
 
 3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme). 
 
