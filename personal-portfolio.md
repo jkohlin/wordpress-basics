@@ -44,8 +44,6 @@ In the folder you just cloned we now need to add the very basic files required b
 
 
 ## 3 - Content structure
----
-
 Study the content plans below and notice the different content types we will need. The types *post* and *page* are default types already added, ergo we only need to add one custom post type - *project*. Our projects could have been added as regular posts, but for this theme we want projects to be distinguished from regular blog posts. You will see why later on.
 
 #### Content plan
@@ -84,6 +82,4 @@ $options = array(
 > Read: https://codex.wordpress.org/Post_Types
 
 ## 3 - Template
----
-
 Now when we have some content to work with, let's create the templates to display it. At the moment all of our three pages uses the default template that came with out starter theme. That is enough to
