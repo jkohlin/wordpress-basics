@@ -57,11 +57,31 @@ It's time to create the backbone of our website - the content. Study the content
 | Project(s) | Default | project | Projects |
 
 #### Tasks
-1. In `functions.php`, register a new post type with the slug *project*.
-2. Head over to admin dashboard and make sure the new post type can be seen in the admin menu.
-3. Create a sample project with placeholder title and content.
+1. Add a new post type with the following options:
+```
+$options = array(
+      'name' => 'Projects',
+      'singular_name' => 'project',
+      'public' => true,
+      'publicly_queryable' => true,
+      'show_ui' => true,
+      'query_var' => true,
+      'rewrite' => array('slug' => 'projects'),
+      'capability_type' => 'post',
+      'hierarchical' => false,
+      'has_archive' => true,
+      'menu_position' => null,
+      'supports' => array(
+      	'title',
+      	'editor',
+#      	'author',
+      	'thumbnail',
+#      	'excerpt',
+      	'comments'
+      ),
+```
 
-> Tip: Read up on custom post types https://codex.wordpress.org/Post_Types
+> Read: https://codex.wordpress.org/Post_Types
 
 ## 3 - Template
 ---
