@@ -12,7 +12,6 @@ Before anything else you will need the following:
 * A Github account
 
 ## 1 - Project setup
----
 Your theme will be version controlled with Git, and have a personal remote repository on Github. First step is to clone the already existing reposity into the theme-folder of your local Wordpress installation.
 
 #### Tasks
@@ -47,6 +46,8 @@ Text Domain: twentythirteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */```
+
+3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme)
 
 ## 3 - Post types
 We need to make sure Wordpress knows about what kind of content we will be using. For this project we only need one custom post type - *projects*. It will be used for storing our creative content.
