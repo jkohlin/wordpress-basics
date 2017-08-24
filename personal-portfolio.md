@@ -49,6 +49,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme)
 
+4. Commit and push your new theme to Github.
+
 ## 3 - Post types
 We need to make sure Wordpress knows about what kind of content we will be using. For this project we only need one custom post type - *projects*. It will be used for storing our creative content.
 
