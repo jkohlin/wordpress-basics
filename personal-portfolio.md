@@ -38,7 +38,7 @@ In the folder you just cloned WE NOW NEED TO ADDthe very basic files required by
 	*/
 ```
 
-3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme).
+3. Save your `style.css` file and activate your new theme via Wordpress Dashboard (Appearence->Theme).
 
 4. Commit and push your new theme back to Github.
 
