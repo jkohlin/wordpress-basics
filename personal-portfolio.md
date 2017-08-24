@@ -42,34 +42,24 @@ In the folder you just cloned WE NOW NEED TO ADDthe very basic files required by
 
 4. Commit and push your new theme back to Github.
 
-## 3 - Content types
-The main content of our portfolio is the creative material. Personal information and news are going to use the Wordpress default types, posts and pages.
 
-#### Custom Post types
-| Name  | Slug | Template | Purpose |
-|---|---|---|---|
-| Project  | project | Project (single-project.php) | To show of your work. |
-
-#### Tasks
-1. In functions.php, register the new post type and make sure it shows up in your Wordpress Dashboard menu.
-
-## 3 - Content and structure
+## 3 - Content
 ---
 
-It's time to create the backbone of our website - the content. Follow the structure plan below and create the pages. Enter som placeholder content and publish the pages.
+It's time to create the backbone of our website - the content. Study the content plans below and notice how Wordpress default content types (*post* and *page*) will cover our need, except for the projects, where we can see another content type called *project*, which we need to create manually.
 
-#### Pages
-| Title  | Template  | Purpose  |
-|---|---|---|
-| Home  | Default | List all projects.  |
-| About  | Default | Personal description and following options.  |
-| Contact  | Default | Contact information and form.  |
-
-> Note: For now all pages will use the default template (index.php).
+#### Content
+| Content  | Template  | Content Typee  | Purpose  |
+|---|---|---|---|
+| My work  | Default | page | Listing projects  |
+| About me  | Default | page | Personal information and contact  |
+| Post(s) | Default | post | Blog posts |
+| Project(s) | Default | project | Projects |
 
 #### Tasks
-1. Create the pages from the content plan above, and add some short but descriptive example text in their content field.
-2. Add two example posts within the projects post type, and add some short but descriptive example text in their content field.
+1. In functions.php, register a new post type with the slug *project*.
+2. Head over to Dashboard and make sure the new post type can be seen in theadmin menu.
+3. Create a sample project with placeholder title and content.
 
 ## 3 - Template
 ---
