@@ -46,7 +46,7 @@ In the folder you just cloned we now need to add the very basic files required b
 ## 3 - Content structure
 Study the content plans below and notice the different content types we will need. The types *post* and *page* are default types already added, ergo we only need to add one custom post type - *project*. Our projects could have been added as regular posts, but for this theme we want projects to be distinguished from regular blog posts. You will see why later on.
 
-[Content Plan](/content-plan "Content plan")
+[Content Plan](http://farkost.se/wordpress-basics/content-plan "Content plan")
 
 #### Tasks
 1. In `functions.php`, add a new post type with the following options:
