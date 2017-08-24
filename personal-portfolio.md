@@ -57,7 +57,7 @@ It's time to create the backbone of our website - the content. Study the content
 | Project(s) | Default | project | Projects |
 
 #### Tasks
-1. Add a new post type with the following options:
+1. In `functions.php`, add a new post type with the following options:
 ```
 $options = array(
       'name' => 'Projects',
