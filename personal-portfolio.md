@@ -20,7 +20,7 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 2. Clone the Github repository into your local themes folder (make sure to pick the SSH clone URL).
 
 ## 2 - Base files
-In the folder you just cloned into your themes folder you'll find the very basic files required by Wordpress to treat the files as a theme. The files are empty, and it's now up to you to fill them out with the required code.
+In the folder you just cloned WE NOW NEED TO ADDthe very basic files required by Wordpress to treat the files as a theme. The files are empty, and it's now up to you to fill them out with the required code.
 
 #### Tasks
 1. Create the following files:
@@ -36,14 +36,14 @@ In the folder you just cloned into your themes folder you'll find the very basic
 	Theme URI: http://farkost.se
 	Author: Johan Kohlin
 	*/
-````
+```
 
-3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme). 
+3. Save your style.css file and activate your new theme via Wordpress Dashboard (Appearence->Theme).
 
-4. Commit and push your new theme to Github.
+4. Commit and push your new theme back to Github.
 
-## 3 - Post types
-We need to make sure Wordpress knows about what kind of content we will be using. For this project we only need one custom post type - *projects*. It will be used for storing our creative content.
+## 3 - Content types
+The main content of our portfolio is the creative material. Personal information and news are going to use the Wordpress default types, posts and pages.
 
 #### Custom Post types
 | Name  | Slug | Template | Purpose |
