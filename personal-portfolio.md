@@ -46,7 +46,7 @@ In the folder you just cloned WE NOW NEED TO ADDthe very basic files required by
 ## 3 - Content
 ---
 
-It's time to create the backbone of our website - the content. Study the content plans below and notice how Wordpress default content types (*post* and *page*) will cover our need, except for the projects, where we can see another content type called *project*, which we need to create manually.
+It's time to create the backbone of our website - the content. Study the content plans below and notice how Wordpress' default content types (*post* and *page*) will cover our need, except for the projects, where we can see another content type called *project*, which we need to create manually.
 
 #### Content
 | Content  | Template  | Content Typee  | Purpose  |
