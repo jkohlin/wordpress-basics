@@ -58,7 +58,7 @@ It's time to create the backbone of our website - the content. Study the content
 
 #### Tasks
 1. In `functions.php`, register a new post type with the slug *project*.
-2. Head over to admin dashboard and make sure the new post type can be seen in theadmin menu.
+2. Head over to admin dashboard and make sure the new post type can be seen in the admin menu.
 3. Create a sample project with placeholder title and content.
 
 ## 3 - Template
