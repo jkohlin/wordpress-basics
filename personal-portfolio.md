@@ -66,9 +66,7 @@ $options = array(
       'supports' => array(
       	'title',
       	'editor',
-#      	'author',
       	'thumbnail',
-#      	'excerpt',
       	'comments'
       ),
 ```
