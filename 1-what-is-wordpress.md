@@ -3,7 +3,7 @@
 First and foremost, Wordpress is a tool for *creating and managing content*. As a website owner or editor you will get access to an area hidden from everyone else - the admin dashboard. This is where you write and manage your content. The simple and user friendly interface is what made and still makes Wordpress so popular. From the admin dashboard you get full control over the website, not only editorial content.
 
 ### Open source
-Who owns Wordpress? There is actually no company behind it, and with that no commercial interests involved. Instead Wordpress is owned and maintained by 'the community', refering to anyone involved with writing code or reporting issues and ideas. 
+Who owns Wordpress? There is actually no company behind it, and with that no commercial interests involved. Instead Wordpress is owned and maintained by 'the community', refering to anyone involved with writing code and taking part in the development. 
 
 Anyone can retrieve the source code for Wordpress and start making improvements. The core developer team will then review your code and might just accept the contribution you made. With hundreds of developers working together, Wordpress is kept relevant and in sync with the ever changing web. 
 
