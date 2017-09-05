@@ -11,11 +11,11 @@ What you see when using Wordpress is really just at GUI for the database, with u
 
 When using Wordpress for public websites, Wordpress will handle your HTTP requests, fetching the data and with that data render templates, which are returned as HTML-files to the visitors as a response.
 
-The Wordpress ecosystem is built with PHP which is a server language. This creates the demand for a web server to run Wordpress. The requirements for hosting are as follows:
+The Wordpress ecosystem is built with PHP which is a server language, meaning you'll need a web server to run Wordpress. Wrapping it up, here is what Wordpress requires to run:
 
-- PHP 7 or greater
-- MySQL 5.6 or greater OR MariaDB 10.0 or greater
-- The mod_rewrite Apache module
-- HTTPS support
+ - Web server (commonly used are Ngninx or Apache)
+ - PHP (currently version 7.0 or later)
+ - MySQL Database
+ - HTTPS-support (a security requirement introduced 2017)
 
 Source: https://wordpress.org/about/requirements/
