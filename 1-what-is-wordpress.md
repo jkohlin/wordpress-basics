@@ -14,7 +14,7 @@ What you see when using Wordpress is really just at GUI for the database, with f
 
 When using Wordpress for public websites, Wordpress will handle the client's HTTP request, fetch content from the database and with that render PHP-based templates. These are returned as HTML-files to the visitors as the HTTP response.
 
-The Wordpress ecosystem is built with PHP which is a server language, meaning you'll need a web server to run Wordpress. Wrapping it up, here is what Wordpress requires to run:
+The Wordpress ecosystem is built with PHP which is a server language, meaning you'll need a web server to run Wordpress. Wrapping it up, these are the required components:
 
  - Web server (commonly used are Ngninx or Apache)
  - PHP (currently version 7.0 or later)
