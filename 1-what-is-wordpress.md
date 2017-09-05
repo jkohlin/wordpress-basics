@@ -7,7 +7,7 @@ First of all, Wordpress is a tool for *creating content*. As a website owner or 
 Thanks to the built in account system called Users, many people can have access to the same admin dashboard and manage different parts of the website. The registrered user need a certain level of capabilities to access the admin dashboard.
 
 ### How it works
-What you see when using Wordpress is really just at GUI for the database. Wordpress is using a MySQL database for storing your content.
+What you see when using Wordpress is really just at GUI for the database, with user friendly fields and buttons to enter data. A MySQL database for storing your content.
 
 When using Wordpress for public websites, Wordpress will handle your HTTP requests, fetching the data and with that data render templates, which are returned as HTML-files to the visitors as a response.
 
