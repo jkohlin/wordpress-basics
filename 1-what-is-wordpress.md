@@ -26,5 +26,5 @@ The Wordpress ecosystem is built with PHP which is a server language, meaning yo
 Source: https://wordpress.org/about/requirements/
 
 ### Hosted vs. Self hosted
-The aproach of running Wordpress on your own, by using your own web server or a hosting provider, is in Wordpress terms refered to as 'self-hosted Wordpress'. What that really means is that you are responsible for setting up everything yourself. There are hosting providers which offers so called 1-click installs of Wordpress, but in the end of the day it's up to you as the website owner everything work.
+The aproach of running Wordpress on your own, by using your own web server or a hosting provider, is in Wordpress terms refered to as 'self-hosted Wordpress'. What that really means is that you are responsible for setting up everything yourself. There are hosting providers which offers easy installs of Wordpress, but in the end of the day it's up to you as the owner for everything to work.
 
