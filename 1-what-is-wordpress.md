@@ -7,7 +7,7 @@ First of all, Wordpress is a tool for *creating content*. As a website owner or 
 ### Open source
 So, who owns Wordpress? There is actually no company behind it, and with that no commercial interests. Instead Wordpress is owned and maintained by 'the community', refering to anyone involved with writing code or reporting issues and ideas. 
 
-Any developer can get the source code for Wordpress and start making adjustments and improvements. The core developer team will then review your code and might just accept the contribution you made. With hundreds of developers working together, Wordpress is kept relevant and in sync with the ever changing web. 
+Anyone can retrieve the source code for Wordpress and start making improvements. The core developer team will then review your code and might just accept the contribution you made. With hundreds of developers working together, Wordpress is kept relevant and in sync with the ever changing web. 
 
 Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates and make sure your Wordpress installation using the latest release all the time.
 
