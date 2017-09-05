@@ -10,7 +10,7 @@ Anyone can retrieve the source code for Wordpress and start making improvements.
 Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates, and make sure your Wordpress installation using the latest release all the time.
 
 ### How it works
-What you see when using Wordpress is really just at GUI for the database, with user friendly fields and buttons to enter data. A MySQL database for storing your content.
+What you see when using Wordpress is really just at GUI for the database, with fields and buttons to enter and save data. To store the data a MySQL database is used.
 
 When using Wordpress for public websites, Wordpress will handle your HTTP requests, fetching the data and with that data render templates, which are returned as HTML-files to the visitors as a response.
 
