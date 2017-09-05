@@ -9,7 +9,7 @@ So, who owns Wordpress? There is actually no company behind it, and with that no
 
 Anyone can retrieve the source code for Wordpress and start making improvements. The core developer team will then review your code and might just accept the contribution you made. With hundreds of developers working together, Wordpress is kept relevant and in sync with the ever changing web. 
 
-Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates and make sure your Wordpress installation using the latest release all the time.
+Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates, and make sure your Wordpress installation using the latest release all the time.
 
 ### How it works
 What you see when using Wordpress is really just at GUI for the database, with user friendly fields and buttons to enter data. A MySQL database for storing your content.
