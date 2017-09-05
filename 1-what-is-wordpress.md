@@ -12,7 +12,7 @@ Every month the Wordpress team will push out new releases, which is important to
 ### How it works
 What you see when using Wordpress is really just at GUI for the database, with fields and buttons to enter and save data. To store the data a MySQL database is used.
 
-When using Wordpress for public websites, Wordpress will handle your HTTP requests, fetching the data and with that data render templates, which are returned as HTML-files to the visitors as a response.
+When using Wordpress for public websites, Wordpress will handle the client's HTTP request, fetch content from the database and with that render PHP-based templates. These are returned as HTML-files to the visitors as the HTTP response.
 
 The Wordpress ecosystem is built with PHP which is a server language, meaning you'll need a web server to run Wordpress. Wrapping it up, here is what Wordpress requires to run:
 
