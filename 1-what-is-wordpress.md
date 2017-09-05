@@ -1,8 +1,10 @@
 ## What is Wordpress?
 
-Wordpress is the open source blogging platform which became the leading content management system for websites. It never dropped it’s blogging capabilities, but from around version 3.0 it came to handle content far beyond just blog posts.
+Wordpress is the open source blogging platform which became the leading content management system (CMS) for websites. It never dropped it’s blogging capabilities, but from around version 3.0 it came to handle content far beyond just blog posts.
 
 First of all, Wordpress is a tool for *creating content*. As a website owner or editor you will get access to an area hidden from everyone else - the admin dashboard. This is where you write and edit your content. The simple and user friendly interface is what made and still makes Wordpress so popular. From the admin dashboard you have full control over the website, not only it's editorial content.
+
+Thanks to the built in account system called Users, many people can have access to the same admin dashboard and manage different parts of the website. The registrered user need a certain level of capabilities to access the admin dashboard.
 
 ### How it works
 What you see when using Wordpress is really just at GUI for the database. Wordpress is using a MySQL database for storing your content.
