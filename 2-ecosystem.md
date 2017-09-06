@@ -5,7 +5,7 @@ When installed, Wordpress creates a set of tables with relationships between eac
 
 ![]({{site.baseurl}}//34.png)
 
-The rows in this table will hold the website's posts, pages and any other content your site is built of. All content in Wordpress is a post, and will be found in this table. Let's dissect the most important of the fields, and pretend we are looking at an article from a news site.
+The rows in this table will hold the website's posts, pages and any other content your site is built of. Let's dissect the most important of the fields, and pretend we are looking at an article from a news site.
 
 **ID**
 The unique key to this article.
