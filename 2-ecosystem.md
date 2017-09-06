@@ -14,7 +14,7 @@ The unique key to this article.
 Who wrote this article? A reference ID to the responsible Wordpress user.
 
 **post_date**
-When was this article first created?
+When was this article first published?
 
 **post_content**
 The article's primary content with text, html and embedded images.
