@@ -7,8 +7,14 @@ Another table is **wp_posts** where much of the website's content will be locate
 
 ![]({{site.baseurl}}//34.png)
 
+The rows in this table will hold the website's posts, pages and any other content your site is built of. Let's dissect each of the fields.
+
+**ID**
+The primary key of this table, which holds an integer unique to every row.
+
+
+
 ###Posts
 **The posts** is central to understand how Wordpress is dealing with content. A post is really just a database entry, with fields like *ID, title and content*. Wordpress uses posts for a lot of things, not only your blog entries.
 
 Let's take a look how the data table for posts are designed:
-
