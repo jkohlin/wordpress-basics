@@ -1,9 +1,7 @@
 ## Ecosystem
 To better understand how Worpress works under the hood, we will take a look on the database design. 
 
-When installed, Wordpress creates a set of tables with relationships between eachother. One table which will be populated during install is **wp_options**. In it, most of the site's settings and configurtion are stored. During install it will be populated with default value rows.
-
-Another table is **wp_posts** where much of the website's content will be located. Let's take a closer look on this table's fields and structure:
+When installed, Wordpress creates a set of tables with relationships between eachother. One of these tables is **wp_posts** where much of the website's content will be located. Let's take a closer look on this table's fields and structure:
 
 ![]({{site.baseurl}}//34.png)
 
@@ -34,7 +32,11 @@ Is this article published? Or is it still pending, awating approval? This field 
 - private (Viewable only to WordPress users at Administrator level.)
 - trash (Deleted article)
 
-###Posts
-**The posts** is central to understand how Wordpress is dealing with content. A post is really just a database entry, with fields like *ID, title and content*. Wordpress uses posts for a lot of things, not only your blog entries.
+**post_type**
+As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. In this case we are looking at a news article, which could very well be a 'post' post type, which is one of two default types. A developer can define custom post type, and in this case it would be something like 'news' or 'article'.
 
-Let's take a look how the data table for posts are designed:
+### Managing posts
+Now when we know what a Worpress post look like in the database, we can head over to the admin dashboard where the post is created from.
+
+
+
