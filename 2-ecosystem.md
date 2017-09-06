@@ -25,7 +25,7 @@ The article's primary content with text, html and embedded images.
 What is the title of this article? e.g. "How Hurricane Irma Became Such a Monster"
 
 **post_status**
-Is this article published? Or is it still pending awating approval? Can have the following values:
+Is this article published? Or is it still pending, awating approval? This field can have the following values:
 
 - publish (Live on the website.)
 - future (Will be automatically published on a set date and time.)
