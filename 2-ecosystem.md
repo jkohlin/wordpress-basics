@@ -33,7 +33,7 @@ Is this article published? Or is it still pending, awating approval? This field 
 - trash (Deleted article)
 
 **post_type**
-As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. In this case we are looking at a news article, which could very well be a 'post' post type, which is one of two default types. A developer can define custom post type, and in this case it would be something like 'news' or 'article'.
+As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds.
 
 ### Managing posts
 Now when we know what a Worpress post look like in the database, we can head over to the admin dashboard where the post is created from.
