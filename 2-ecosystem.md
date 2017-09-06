@@ -1,7 +1,9 @@
 ## Ecosystem
-To better understand how Worpress works under the hood, we will begin take a look on the database design. When installed, Wordpress creates a set of tables with relationships between eachother.
+To better understand how Worpress works under the hood, we will take a look on the database design. 
 
-One of the most important table is **wp_posts** where much of your website's content will be located. Let's take a closer look on this table's fields and structure:
+When installed, Wordpress creates a set of tables with relationships between eachother. One table which will be populated during install is **wp_options**. In it, most of the site's settings and configurtion are stored. During install it will be populated with default value rows.
+
+Another table is **wp_posts** where much of the website's content will be located. Let's take a closer look on this table's fields and structure:
 
 ![]({{site.baseurl}}//34.png)
 
