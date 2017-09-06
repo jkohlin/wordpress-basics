@@ -5,7 +5,7 @@ First and foremost, Wordpress is a tool for *creating and managing content*. As 
 ### Open source
 Who owns Wordpress? The brand and trademark is owned by the Wordpress Foundation, a charitable organisation founded by the author of the code base. The code base it self is open source and maintained by the community, refering to anyone involved with writing code and taking part in the development. 
 
-Anyone can retrieve the source code for Wordpress and start making improvements, or create a completely new product. The core developer team will review all pull requests and might implement if the community likes it. This way Wordpress is kept relevant and in sync with the ever changing web. 
+Anyone can retrieve the source code for Wordpress and start making improvements, or create a completely new product. The core developer team will review all pull requests and implement them if the community approves. This way Wordpress is kept relevant and in sync with the ever changing web. 
 
 Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates, and make sure your Wordpress installation using the latest release all the time.
 
