@@ -3,7 +3,7 @@ To better understand how Worpress works under the hood, we will begin take a loo
 
 One of the most important table is **wp_posts** where much of your website's content will be located. Let's take a closer look on this table:
 
-![wp_posts]({{site.baseurl}}//nxNGY.png)
+![]({{site.baseurl}}//34.png)
 
 ###Posts
 **The posts** is central to understand how Wordpress is dealing with content. A post is really just a database entry, with fields like *ID, title and content*. Wordpress uses posts for a lot of things, not only your blog entries.
