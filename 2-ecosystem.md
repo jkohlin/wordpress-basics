@@ -24,6 +24,16 @@ The article's primary content with text, html and embedded images.
 **post_title**
 What is the title of this article? e.g. "How Hurricane Irma Became Such a Monster"
 
+**post_status**
+Is this article published? Or is it still pending awating approval? Can have the following values:
+
+- publish (Live on the website.)
+- future (Will be automatically published on a set date and time.)
+- draft (Under development and visible only to the author.)
+- pending (Awaiting a user with the capability to publish the article.)
+- private (Viewable only to WordPress users at Administrator level.)
+- trash (Deleted article)
+
 ###Posts
 **The posts** is central to understand how Wordpress is dealing with content. A post is really just a database entry, with fields like *ID, title and content*. Wordpress uses posts for a lot of things, not only your blog entries.
 
