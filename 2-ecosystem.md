@@ -1,11 +1,14 @@
-## Ecosystem
-To better understand how Worpress works under the hood, we will take a look on the database design. 
+## The Wordpress post
 
-When installed, Wordpress creates a set of tables with relationships between eachother. One of these tables is **wp_posts** where much of the website's content will be located. Let's take a closer look on this table's fields and structure:
+When Wordpress was new and nothing but a blogging platform, a post in wordpress was equal to a blog entry. Later on posts 
+
+To better understand what posts are, we will take a look on the database design. 
+
+When installed, Wordpress creates a set of tables in the database. One of these tables is **wp_posts** where much of the website's content will be located. Let's dissect what a post really is by looking at the table structure:
 
 ![]({{site.baseurl}}//34.png)
 
-The rows in this table will hold the website's posts, pages and any other content your site is built of. Let's dissect the most important of the fields, and pretend we are looking at an article from a news site.
+The rows in the wp_posts table will hold all the website's content. Let's dissect the most important of the fields, and pretend we are looking at an article from a news site.
 
 **ID**
 The unique key to this article.
@@ -33,10 +36,14 @@ Is this article published? Or is it still pending, awating approval? This field 
 - trash (Deleted article)
 
 **post_type**
-As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds.
+As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. This is because we often want different behavior for each of our content types. Wordpress comes with two default types, 'post' and 'page'.
 
-### Managing posts
-Now when we know what a Worpress post look like in the database, we can head over to the admin dashboard where the post is created from.
+## Other content fields
+A post can hold much more content connected to it, but instead of using fields in the wp_posts table, other tables are used. They will have a many to one relationship with the posts. 
+
+**Post meta**
+
+
 
 
 
