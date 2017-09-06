@@ -20,7 +20,7 @@ When was this article first published?
 The article's primary content with text, html and embedded images.
 
 **post_title**
-What is the title of this article? e.g. "How Hurricane Irma Became Such a Monster"
+What is the title of this article?
 
 **post_status**
 Is this article published? Or is it still pending, awating approval? This field can have the following values:
