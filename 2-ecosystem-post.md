@@ -72,7 +72,7 @@ Now when you have a basic understanding of what a post is, let's take a look on 
 
 ![Writing posts]({{site.baseurl}}//pst2.jpg)
 
-*The example above shows the admin dashboard for Post/add new post*.
+*The example above shows the admin dashboard for Post/Add new post*.
 
 #### The main navigation
 The dark area to the left is the main navigation. All the website's registered post types will become items in this menu, awith sub pages for listing, editing and creating content of that specific post type.
