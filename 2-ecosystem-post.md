@@ -65,17 +65,3 @@ When rendering content with a PHP-templates we sometimes need to adapt the layuo
 Source: https://codex.wordpress.org/Post_Formats
 
 Remember that the post format value itself **does not** control any behavior or layout. It's all up to you as a theme developer what to do with the information.
-
-## Writing posts
-
-Now when you have a basic understanding of what a post is, let's take a look on what all this really looks like to an admin or author, in the admin dashboard.
-
-![Writing posts]({{site.baseurl}}//pst2.jpg)
-
-*The example above shows the admin dashboard for Post/Add new post*.
-
-#### The main navigation
-The dark area to the left is the main navigation. All the website's registered post types will become items in this menu, with sub pages for listing, editing and creating content of that specific post type.
-
-The main area holds the input fields where we can enter text based content. Regular posts will have fields for *title* and *content*, but additional fields (excerpt and custom fields) can be activated from the screen options.
-
