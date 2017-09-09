@@ -1,5 +1,4 @@
 ## The Wordpress post
-
 When Wordpress was new and nothing but a blogging platform, a post in wordpress was equal to a blog entry. Later on posts 
 
 To better understand what posts are, we will take a look on the database design. 
@@ -20,6 +19,7 @@ Who wrote this article? A reference ID to the responsible Wordpress user.
 When was this article first published?
 
 **post_content**
+
 The article's primary content with text, html and embedded images.
 
 **post_title**
