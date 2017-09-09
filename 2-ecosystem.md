@@ -1,5 +1,5 @@
 ## The Wordpress post
-When Wordpress was new and nothing but a blogging platform, a post in wordpress was equal to a blog entry. Later on posts 
+When Wordpress was new and nothing but a blogging platform, a post in Wordpress was equal to a blog entry. Since then posts are used for almost anything, and can hold data far more complex than a blog entry.
 
 To better understand what posts are, we will take a look on the database design. 
 
