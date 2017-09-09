@@ -64,4 +64,4 @@ When rendering content with a PHP-templates we sometimes need to adapt the layuo
 
 Source: https://codex.wordpress.org/Post_Formats
 
-Remember that the post format value itself **does not** control any behavior or layout. It's all up to you as a theme developer what to do with the value, if available.
+Remember that the post format value itself **does not** control any behavior or layout. It's all up to you as a theme developer what to do with the information.
