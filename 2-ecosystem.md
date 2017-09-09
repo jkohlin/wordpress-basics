@@ -47,6 +47,6 @@ As all content in Wordpress is a post and stored in this table, we need a way of
 | nav_menu_item  | custom menu items |
  
 **Post meta**
-Post meta is extended data fields, stored in a separate database table. The rows are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
+Post meta is extended data fields, stored in a separate database table. The rows in this table are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
 
 ****
