@@ -36,7 +36,7 @@ Is this article published? Or is it still pending, awating approval? This field 
 - trash (Deleted article)
 
 #### post_type
-As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. Each post type holds different properties and behavior. A developer can define new custom post types, but with Wordpress we get a bunch of preinstalled types:
+As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. Each post type holds different properties and behavior, and a developer can define new custom post types. When installing Wordpress we get a bunch of preinstalled default types:
 
 | name  |  used for |
 |---|---|
