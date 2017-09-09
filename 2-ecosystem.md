@@ -9,23 +9,23 @@ When installed, Wordpress creates a set of tables in the database. One of these 
 
 The rows in the wp_posts table will hold all the website's content. Let's dissect the most important of the fields, and pretend we are looking at an article from a news site.
 
-**ID**
+#### ID
 The unique key to this article.
 
-**post_author**
+#### post_author
 Who wrote this article? A reference ID to the responsible Wordpress user.
 
-**post_date**
+#### post_date
 When was this article first published?
 
-**post_content**
+#### post_content
 
 The article's primary content with text, html and embedded images.
 
-**post_title**
+#### post_title
 What is the title of this article?
 
-**post_status**
+#### post_status
 Is this article published? Or is it still pending, awating approval? This field can have the following values:
 
 - publish (Live on the website.)
@@ -35,7 +35,7 @@ Is this article published? Or is it still pending, awating approval? This field 
 - private (Viewable only to WordPress users at Administrator level.)
 - trash (Deleted article)
 
-**post_type**
+#### post_type
 As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. Each post type holds different properties and behavior. A developer can define new custom post types, but with Wordpress we get a bunch of preinstalled types:
 
 | name  |  used for |
@@ -46,7 +46,7 @@ As all content in Wordpress is a post and stored in this table, we need a way of
 | revision  | saved versions of posts |
 | nav_menu_item  | custom menu items |
  
-**Post meta**
+#### post_meta
 Post meta is extended data fields, stored in a separate database table. The rows in this table are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
 
 ****
