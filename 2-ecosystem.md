@@ -36,14 +36,17 @@ Is this article published? Or is it still pending, awating approval? This field 
 - trash (Deleted article)
 
 **post_type**
-As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. This is because we often want different behavior for each of our content types. Wordpress comes with two default types, 'post' and 'page'.
+As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. Each post type holds different properties and behavior. A developer can define new custom post types, but with Wordpress we get a bunch of preinstalled types:
 
-## Other content fields
-A post can hold much more content connected to it, but instead of using fields in the wp_posts table, other tables are used. They will have a many to one relationship with the posts. 
-
+| name  |  used for |
+|---|---|
+| post  | non hierarchial content (blogposts, news, etc.) |
+|  page | hierarchial content (web pages)  |
+| attachment  |  files and media |
+| revision  | saved versions of posts |
+| nav_menu_item  | custom menu items |
+ 
 **Post meta**
+Post meta is extended data fields, stored in a separate database table. The rows are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
 
-
-
-
-
+****
