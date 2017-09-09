@@ -77,3 +77,5 @@ Now when you have a basic understanding of what a post is, let's take a look on 
 #### The main navigation
 The dark area to the left is the main navigation. All the website's registered post types will become items in this menu, with sub pages for listing, editing and creating content of that specific post type.
 
+The main area holds the input fields where we can enter our text based content. Regular posts will have fields for *title* and *content*, but additional fields (excerpt and custom fields) can be activated from the admin settings.
+
