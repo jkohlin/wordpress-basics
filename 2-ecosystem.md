@@ -40,7 +40,7 @@ As all content in Wordpress is a post and stored in this table, we need a way of
 
 | name  |  used for |
 |---|---|
-| post  | non hierarchial content (blogposts, news, etc.) |
+| post  | non hierarchial content (blog entries, news, etc.) |
 |  page | hierarchial content (web pages)  |
 | attachment  |  files and media |
 | revision  | saved versions of posts |
