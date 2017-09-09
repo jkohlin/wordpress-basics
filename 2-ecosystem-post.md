@@ -66,7 +66,7 @@ Source: https://codex.wordpress.org/Post_Formats
 
 Remember that the post format value itself **does not** control any behavior or layout. It's all up to you as a theme developer what to do with the information.
 
-##Creating posts
+## Writing posts
 
-Now when you have a basic understanding of what a post is, let's take a look on how it essembles on the front end, in the admin dashboard.
+Now when you have a basic understanding of what a post is, let's take a look on what all this really looks like to an admin or authot, in the admin dashboard.
 
