@@ -42,8 +42,8 @@ As all content in Wordpress is a post and stored in this table, we need a way of
 |---|---|
 | post  | non hierarchial content (blog entries, news, etc.) |
 |  page | hierarchial content (web pages)  |
-| attachment  |  files and media |
-| revision  | saved versions of posts |
+| attachment  |  files and media (information for a specific data file) |
+| revision  | autosaved post versions |
 | nav_menu_item  | custom menu items |
  
 #### post_meta
