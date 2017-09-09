@@ -68,5 +68,5 @@ Remember that the post format value itself **does not** control any behavior or 
 
 ## Writing posts
 
-Now when you have a basic understanding of what a post is, let's take a look on what all this really looks like to an admin or authot, in the admin dashboard.
+Now when you have a basic understanding of what a post is, let's take a look on what all this really looks like to an admin or author, in the admin dashboard.
 
