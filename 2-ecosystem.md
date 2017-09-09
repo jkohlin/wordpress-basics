@@ -47,7 +47,7 @@ As all content in Wordpress is a post and stored in this table, we need a way of
 | nav_menu_item  | custom menu items |
  
 ### Post Meta
-Post meta is extended data fields for posts, but are stored in a separate database table. The rows in this table are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
+Post meta is extended data fields for posts, that are stored in a separate database table. The rows in this table are key/value pairs with a reference to a specific post ID in **wp_posts** table. This enables us to extend the default content fields in admin dashboard, when writing content.
 
 ### Post Format
 When rendering content with a PHP-templates we sometimes need to adapt the layuot to fit the content. Post format is a value which set by the author when creating the content. There are a number of pre-set values available and we are limited to use one of the values to describe our content. The currently available values are:
