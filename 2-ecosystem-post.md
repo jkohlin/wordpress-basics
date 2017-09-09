@@ -70,3 +70,9 @@ Remember that the post format value itself **does not** control any behavior or 
 
 Now when you have a basic understanding of what a post is, let's take a look on what all this really looks like to an admin or author, in the admin dashboard.
 
+![Writing posts]({{site.baseurl}}//pst2.jpg)
+
+The example above shows the admin dashboard, with the view for adding a new post of the default post type *post*.
+
+#### The main navigation
+The dark area to the right is Wordpress main navigation. All the website's registered post types will become items in this menu, and provide views for listing, editing and creating content of that specific type.
