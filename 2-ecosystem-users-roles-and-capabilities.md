@@ -30,3 +30,6 @@ Each of the default roles have different **capabilites** applied to them, which 
 - manage_links
 - manage_options
 
+###Database
+Users are stored in a table called **wp_users**.
+![wp_users table]({{site.baseurl}}/describe-wp_users.png)
