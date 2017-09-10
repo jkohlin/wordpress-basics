@@ -49,8 +49,6 @@ Below is a basic example of a theme's default template:
     get_sidebar();
     get_footer();
 
-Just like with any PHP file we need to wrap all PHP-code inside `<?php` and `?>`. Everything outside these tags are regular HTML.
-
 Starting from the top, we begin with a method called `<?php get_header(); ?>`. This is a built in Wordpress method which will look in our theme for a file called `header.php` and embed it's content into our template's top. Inside `header.php` we will find code that applies to all templates, had we more than one. Making changes to header.php would then automatically apply to all our templates, and we wouldnt have to do repetative tasks. **The art of not repeating ourself is very important when creating themes.**
 
 ### Template parts
