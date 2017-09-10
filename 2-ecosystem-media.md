@@ -12,7 +12,7 @@ Defining image size (`functions.php`):
 
 *Arguments are name, width, height, crop*
     
-Using an image size (any template):
+Outputing an image (any template):
 
 	wp_get_attachment_image( 321, 'my-custom-imageversion' )
 
