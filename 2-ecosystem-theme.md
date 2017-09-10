@@ -1,5 +1,5 @@
 #Theme
-A theme is a set of files with templates and functions controling how to present the content to the web. These files are 
+A theme is a set of files with templates and functions controling how to present the content to the web. The main components of a theme are as follows:
 
 - Templates and template parts
 - PHP/Wordpress Functions
