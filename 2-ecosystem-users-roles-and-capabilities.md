@@ -13,7 +13,7 @@ The different roles in Wordpress are:
 - Contributor
 - Subscriber
 
-Each of the default roles have different **capabilites** applied to them which are what Wordpress use to determine what a user is allowed to se and edit. There are hundreds of pre-defined capabilities which are nothing but text strings with names describing the capability.
+Each of the default roles have different **capabilites** applied to them, which determine what the users with that role are allowed to se and edit. There are hundreds of pre-defined capabilities, which are nothing but names describing the capability.
 
 Some examples:
 
