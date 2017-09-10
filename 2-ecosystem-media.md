@@ -22,4 +22,6 @@ When uploading an image into the Wordpress Media Library, a series of events is 
 2. Copies of the image file are created into the defined sizes.
 3. A post with post type *attachment* is created with information about the image files.
 
-Using 
+Each image will be represented in the Media Library as one single image. This way a content editor won't have to worry about sizes and multiple variants.
+
+
