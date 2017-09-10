@@ -6,5 +6,5 @@ We can have a multiple set of templates, each with their own layout and function
 
 Templates, which are PHP-files utilizing Wordpress' built in methods, must be named properly for the template system to know which template to pick.
 
-
-
+####The default template
+For a theme to work, we need at least one template. This required base template must be named index.php.
