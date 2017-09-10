@@ -49,7 +49,7 @@ Below is a basic example of a theme's default template:
     get_sidebar();
     get_footer();
 
-Starting from the top, we begin with a method called `<?php get_header(); ?>`. This is a built in Wordpress method which will look in our theme for a file called `header.php` and embed it's content into our template's top. Inside `header.php` we will find code that applies to all templates, had we more than one. Making changes to header.php would then automatically apply to all our templates, and we wouldnt have to do repetative tasks. **The art of not repeating ourself is very important when creating themes.**
+Starting from the top, we begin with a method called `<?php get_header(); ?>`. This is a built in Wordpress method which will look in our theme for a file called `header.php` and embed it's content into our template's top. Inside `header.php` we will find code that applies to all templates, should we have more than one. Making changes to header.php would then automatically apply to all our templates, and we wouldnt have to do repetative tasks. **The art of not repeating ourself is very important when creating themes.**
 
 ### Template parts
 In the example with `header.php` we were embedding something called a **template part**, which are smaller chunks of reusable template code. Much of our templates will be built by template parts together with HTML and Wordpress PHP-methods.
