@@ -32,8 +32,6 @@ Below is a basic example of a theme's default template:
                     while ( have_posts() ) : the_post();
                         get_template_part( 'content', get_post_format() );
                     endwhile;
-                    // Previous/next post navigation.
-                    twentyfourteen_paging_nav();
                 else :
                     // If no content, include the "No posts found" template.
                     get_template_part( 'content', 'none' );
