@@ -58,4 +58,4 @@ Below is the most common way of embedding template parts in a template:
 
 	get_template_part( $slug, $name = null )
     
-The two arguments are used to locate a filename inside our theme. To replicate what the method `get_header();` does we can use `<?php get_template_part('header'); ?>`. A template part can include other template parts, which enables us to create Lego-like blocks of code to build our templates.
+The two arguments are used to locate a specific filename inside our theme. To replicate what the method `get_header();` does we can use `<?php get_template_part('header'); ?>`. The second argument can be used to look for other versions of the same template part. Let's say we had `header-simple.php` we could use  `<?php get_template_part('header', 'simple'); ?>` to look for that template part first. If not found, Wordpress would instead look for `header.php` as a fallback.
