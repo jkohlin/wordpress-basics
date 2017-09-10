@@ -4,7 +4,7 @@ To manage content and settings in Wordpress you need to become a registered user
 
 You will also have a rank, which controls what information you are allowed to see and edit in admin dashboard. This rank is in Wordpress called **role**.
 
-The different roles in Wordpress are:
+####User roles
 
 - Super Admin
 - Administrator
