@@ -1,4 +1,12 @@
-# Templates and template parts
+#Theme
+A theme is a set of files with templates and functions controling how to present the content to the web.
+
+- Templates and template parts
+- PHP Functions
+- Stylesheets and javascripts
+- Static asset files
+
+## Templates and template parts
 
 A Wordpress template is like a blueprint, describing how the content will be presented on the frontend. A template contains HTML markup, along with placeholders for the content.
 
