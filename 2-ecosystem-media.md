@@ -4,7 +4,17 @@ Creating and managing content will often demand some kind of media to back up th
 
 Distributing content to different channels, networks and devices requires an adaptive aproach to fit each situation. The image size and resolution is one factor which we need a plan for, often including having many version of same image.
 
-The developer of a theme will on forehand have to define which sizes will be needed, and carefully plan for different resolutions and devices. Each size get an unique name, which are used 
+The developer of a theme will on forehand have to define these image sizes, and carefully plan for different resolutions and devices. Each size gets a unique name, which are used in the templates to output the correct image version.
+
+Defining image size (`functions.php`):
+
+	add_image_size( 'my-custom-imageversion', 1280, 1020, false )
+
+*Arguments are name, width, height, crop*
+    
+Using an image size (template):
+
+	wp_get_attachment_image( 321, 'my-custom-imageversion' )
 
 When uploading an image into the Wordpress Media Library, a series of events is going to occur:
 
