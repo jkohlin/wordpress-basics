@@ -15,8 +15,7 @@ The different roles in Wordpress are:
 
 Each of the default roles have different **capabilites** applied to them, which determine what the users with that role are allowed to se and edit. There are hundreds of pre-defined capabilities, which are nothing but names describing the capability.
 
-Some examples:
-
+####Some of the capabilities
 - edit_pages
 - edit_posts
 - edit_private_pages
