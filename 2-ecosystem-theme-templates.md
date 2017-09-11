@@ -61,7 +61,7 @@ In the middle of the document we find something called The Loop:
         get_template_part( 'content', 'none' );
     endif;
 
-The Wordpress loop is what we use to output content in our templates. A global variable called $wp_query will hold the current post's content and also provide helper methods to retrive that content.
+The Loop is what we can use to output content in our templates. A global variable called $wp_query will hold the current post's content and also provide helper methods to retrive that content.
 
 
 
