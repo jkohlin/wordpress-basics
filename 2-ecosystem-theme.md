@@ -15,7 +15,7 @@ We can have a multiple set of templates, each with their own layout and function
 
 In a theme we need at least one template which should be named `index.php`. This is a fallback template which will be responsible for rendering out content if no other template would be found.
 
-Below is a basic example of a theme's default template:
+Below is a basic example of a theme's default template `index.php`:
 
     <?php
 
@@ -47,9 +47,20 @@ Below is a basic example of a theme's default template:
     get_sidebar();
     get_footer();
 
-Starting from the top, we begin with a method called `<?php get_header(); ?>`. This is a built in Wordpress method which will look in our theme for a file called `header.php` and embed it's content into our template's top. Inside `header.php` we will find code that applies to all templates, should we have more than one. Making changes to header.php would then automatically apply to all our templates, and we wouldnt have to do repetative tasks. **The art of not repeating ourself is very important when creating themes.**
+What we see here is PHP and HTML mixed in one PHP-file. In the middle of the document we find something called The Loop:
 
-Moving on beyond the regular html markup, we aprach next php-block with if-statements and a while-loop.
+    if ( have_posts() ) :
+        // Start the Loop.
+        while ( have_posts() ) : the_post();
+            get_template_part( 'content', get_post_format() );
+        endwhile;
+    else :
+        // If no content, include the "No posts found" template.
+        get_template_part( 'content', 'none' );
+    endif;
+ 
+Here is where posts are retrieved from the database. The methods `have_posts()` and `the_post()` both are members of an object called $wp_query. It's an instance of the class `WP_Query`and is available in all our templates.
+ 
 
 ### Template parts
 In the example with `header.php` we were embedding something called a **template part**, which are smaller chunks of reusable template code. Much of our templates will be built by template parts together with HTML and Wordpress PHP-methods.
