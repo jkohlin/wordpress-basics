@@ -9,11 +9,11 @@ A theme is a set of files with templates and functions controling how the conten
 
 ## Templates and template parts
 
-A Wordpress template is like a blueprint, mixing HTML markup with PHP-methods to retrieve database content.
+Templates are used to structure the content for presentation on the frontend. Technically the templates are PHP-files with HTML and PHP-function calls.
 
-We can have a multiple set of templates, each with their own layout and functions. So when a Wordpress post is requested by the frontend, Wordpress template system will pick the correct template and render the post content with it, resulting in a HTML-page.
+When building a theme we are required to include a template called `index.php`. This will become the default template and be used for all post types.
 
-In a theme we need at least one template which should be named `index.php`. This is a fallback template which will be responsible for rendering out content if no other template would be found.
+> Note: Adding more templates should be done only when in need of a dramatic change of layout. Smaller layout variations depending on the current content can easily be made within the same template.
 
 Below is a basic example of a theme's default template `index.php`:
 
@@ -58,9 +58,8 @@ What we see here is PHP and HTML mixed in one PHP-file. In the middle of the doc
         // If no content, include the "No posts found" template.
         get_template_part( 'content', 'none' );
     endif;
- 
+
 Here is where posts are retrieved from the database. The methods `have_posts()` and `the_post()` both are members of an object called $wp_query. It's an instance of the class `WP_Query`and is available in all our templates.
- 
 
 ### Template parts
 In the example with `header.php` we were embedding something called a **template part**, which are smaller chunks of reusable template code. Much of our templates will be built by template parts together with HTML and Wordpress PHP-methods.
