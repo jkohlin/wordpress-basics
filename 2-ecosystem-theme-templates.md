@@ -13,7 +13,7 @@ Templates are used to render the content for presentation on the frontend. Techn
 
 When building a theme we are required to include a template called `index.php`. This will become the default template and be used to render all content.
 
-In addition to `index-php` we are free to add more templates to fit different content. Wordpress comes with a clever template system where the template's filename is used.
+In addition to `index-php` we as developers can add more templates to fit different content and situations. Wordpress will use the template filename to decide when to use which template.
 
 > Note: Adding templates should be done with great care and not just to make small variantions of a layout. One template can present content i various ways with the help of PHP logic.
 
