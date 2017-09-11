@@ -61,7 +61,7 @@ In the middle of the document we find something called The Loop:
         get_template_part( 'content', 'none' );
     endif;
 
-THhis is where posts are retrieved from the database. The methods `have_posts()` and `the_post()`  are both members of an object called $wp_query. It's an instance of the class `WP_Query` which is available in all our templates.
+This is where posts are retrieved from the database. The methods `have_posts()` and `the_post()`  are both members of an object called $wp_query. It's an instance of the class `WP_Query` which is available in all our templates.
 
 ####WP Query
 To understand the loop we need to understand what information the $wp_query-object holds. It will always depend on the current content, so let's look at few examples:
