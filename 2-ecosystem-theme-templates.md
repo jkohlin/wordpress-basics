@@ -9,7 +9,7 @@ A theme is a set of files with templates and functions controling how the conten
 
 ## Templates and template parts
 
-Templates are used to render the content for presentation on the frontend. Technically the templates are PHP-files with HTML and PHP-function calls.
+Templates are used to render the content for presentation on the frontend. Technically the templates are PHP-files with HTML mixed with PHP-function calls.
 
 When building a theme we are required to include a template called `index.php`. This will become the default template and be used to render all content.
 
