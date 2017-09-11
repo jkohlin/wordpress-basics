@@ -73,6 +73,7 @@ To understand the loop we need to understand what information the $wp_query-obje
 |  Home page |  All posts |
 |  Archive |  All posts  |
 |  Taxonomy Archive |  All posts with the current taxonomy term |
+|  Search results |  All posts matching the current search query |
 
 
 ### Template parts
