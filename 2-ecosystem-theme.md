@@ -9,9 +9,9 @@ A theme is a set of files with templates and functions controling how the conten
 
 ## Templates and template parts
 
-A template is like a blueprint, describing how content will be presented on the frontend. The template contains HTML markup with placeholders for the content.
+A Wordpress template is like a blueprint, mixing HTML markup with PHP-methods to retrieve database content.
 
-We can have a multiple set of templates, each with their own layout and functionality. When content is requested by a website visitor, Wordpress picks the correct template and renders it into an HTML-page.
+We can have a multiple set of templates, each with their own layout and functions. So when a Wordpress post is requested by the frontend, Wordpress template system will pick the correct template and render the post content with it, resulting in a HTML-page.
 
 In a theme we need at least one template which must be named `index.php`. This is a fallback template which will be responsible for rendering out content, if no other template is found.
 
