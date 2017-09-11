@@ -70,9 +70,9 @@ To understand the loop we need to understand what information the $wp_query-obje
 |---|---|
 |  Page |  The content of the current page |
 |  Post |  The content of the current post |
-|  Home page |  All posts of the site |
-|  Archive |  All posts of the site  |
-|  Category Archive |  All posts of the site with the current category |
+|  Home page |  All posts |
+|  Archive |  All posts  |
+|  Category Archive |  All posts with the current category |
 
 
 ### Template parts
