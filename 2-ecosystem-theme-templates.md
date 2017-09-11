@@ -13,7 +13,7 @@ Templates are used to structure the content for presentation on the frontend. Te
 
 When building a theme we are required to include a template called `index.php`. This will become the default template and be used for all post types.
 
-> Note: Adding more templates should be done only when in need of a dramatic change of layout. Smaller layout variations depending on the current content can easily be made within the same template.
+> Note: Adding more templates should be done with care and only when in need of a dramatic change of layout. Smaller layout variations depending on the current content can easily be made within the same template.
 
 Below is a basic example of a theme's default template `index.php`:
 
