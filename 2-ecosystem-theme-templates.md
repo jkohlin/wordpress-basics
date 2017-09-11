@@ -61,17 +61,8 @@ In the middle of the document we find something called The Loop:
         get_template_part( 'content', 'none' );
     endif;
 
-The Loop is what we can use to output content in our templates. A global variable called $wp_query will hold the current post's content and also provide helper methods to retrive that content.
+The Loop is what we can use to output content in our templates. A global variable called $wp_query will hold the current post's content and also provide helper methods to retrive that content. The content comes in form of an array of posts.
 
+**have_posts()** is a boolean method which will return true as long as there are posts left in the array.
 
-
-### Template parts
-In the example with `header.php` we were embedding something called a **template part**, which are smaller chunks of reusable template code. Much of our templates will be built by template parts together with HTML and Wordpress PHP-methods.
-
-Below is the most common way of embedding template parts in a template:
-
-	get_template_part( $slug, $name = null )
-    
-The two arguments are used to locate a specific filename inside our theme. To replicate what the method `get_header()` does, we can use `<?php get_template_part('header'); ?>`. Wordpress will only look in our theme's root directory, so if we had all our template parts in another folder (recommended) we would have to include that folder in the argument too: `<?php get_template_part('my-template-parts/header'); ?>`
-
-The second argument can be used to look for other versions of the same template part. Let's say we had `header-simple.php` where some kind of alternation were made. We could then use  `<?php get_template_part('my-template-parts/header', 'simple'); ?>` to look for that template part first. If not found, Wordpress would instead look for `header.php` as a fallback. The file's naming is important here.
+**the_post()** Gets the next post in the array, sets up the post and iterates the loop to next index.By "setting up the post" we can access the content of that post.
