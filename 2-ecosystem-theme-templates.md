@@ -72,7 +72,7 @@ To understand the loop we need to understand what information the $wp_query-obje
 |  Post |  The content of the current post |
 |  Home page |  All posts |
 |  Archive |  All posts  |
-|  Category Archive |  All posts with the current category |
+|  Taxonomy Archive |  All posts with the current taxonomy term |
 
 
 ### Template parts
