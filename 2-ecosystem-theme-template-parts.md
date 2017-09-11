@@ -1,5 +1,5 @@
 ## Template parts
-When coding templates we have to prevent duplicate code, as it will become hard to maintain. By wrapping common chunks into components we can reduce the amount of code and simplify maintenance.
+When making templates we have to prevent duplicate code, as it will become hard to maintain. By wrapping common chunks into components (PHP-files) we can reduce the amount of code and simplify maintenance.
 
 Much of our templates will be built by template parts and this is how a template part is included:
 
@@ -9,4 +9,4 @@ The two arguments are used to locate a specific filename inside our theme's fold
 
 The second argument can be used to look for other versions of the same template part. Let's say we had `header-simple.php` where some kind of alternation were made. We could then use  `<?php get_template_part('my-template-parts/header', 'simple'); ?>` to look for that template part first. If not found, Wordpress would instead look for `header.php` as a fallback. The file's naming is important here.
 
-Something all template needs are HTML-markup like <body> and <head>. Writing this in each template would be stupid, so we create template parts called `header.php` and `footer.php` and include them in all our templates. These two example is so common that Wordpress has created shorthand methods for including them. `get_header()` and `get_footer()`. These can be seen in templates' top and bottom.
+Something all template needs are HTML-markup like <body> and <head> with imports and scripts. Coding all this in each template would be stupid, so we can instead create template parts called `header.php` and `footer.php` and include them in all our templates. These two example is so common that Wordpress gives us shorthand methods for including them; `get_header()` and `get_footer()`. These can be seen in all templates' top and bottom.
