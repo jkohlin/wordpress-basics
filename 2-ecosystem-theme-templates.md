@@ -61,7 +61,7 @@ In the middle of the document we find something called The Loop:
         get_template_part( 'content', 'none' );
     endif;
 
-THhis is where posts are retrieved from the database. The methods `have_posts()` and `the_post()` both are members of an object called $wp_query. It's an instance of the class `WP_Query`and is available in all our templates.
+THhis is where posts are retrieved from the database. The methods `have_posts()` and `the_post()`  are both members of an object called $wp_query. It's an instance of the class `WP_Query` which is available in all our templates.
 
 ### Template parts
 In the example with `header.php` we were embedding something called a **template part**, which are smaller chunks of reusable template code. Much of our templates will be built by template parts together with HTML and Wordpress PHP-methods.
