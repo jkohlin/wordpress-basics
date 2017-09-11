@@ -17,7 +17,7 @@ In addition to `index.php` we as developers can add more templates to fit differ
 
 > Note: Adding templates should be done with great care and not just to make small variantions of a layout. One template can present content i various ways with the help of PHP logic.
 
-Below is a basic example of a theme's default template `index.php`:
+Below is an example of a theme's default template `index.php`:
 
     <?php
 
