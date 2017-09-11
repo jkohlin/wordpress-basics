@@ -7,7 +7,7 @@ A theme is a set of files with templates and functions controling how the conten
 - Static asset files
 - Theme definition
 
-## Templates and template parts
+## Templates
 
 Templates are used to render the content for presentation on the frontend. Technically the templates are PHP-files with HTML mixed with PHP-function calls.
 
@@ -65,4 +65,6 @@ The Loop is what we can use to output content in our templates. A global variabl
 
 **have_posts()** is a boolean method which will return true as long as there are posts left in the array.
 
-**the_post()** Gets the next post in the array, sets up the post and iterates the loop to next index.By "setting up the post" we can access the content of that post.
+**the_post()** Gets the next post in the array, sets up the post and iterates the loop to next index. By "setting up the post" we can access the content of that post.
+
+
