@@ -13,7 +13,7 @@ A Wordpress template is like a blueprint, mixing HTML markup with PHP-methods to
 
 We can have a multiple set of templates, each with their own layout and functions. So when a Wordpress post is requested by the frontend, Wordpress template system will pick the correct template and render the post content with it, resulting in a HTML-page.
 
-In a theme we need at least one template which should be named `index.php`. This is a fallback template which will be responsible for rendering out content, if no other template is found.
+In a theme we need at least one template which should be named `index.php`. This is a fallback template which will be responsible for rendering out content if no other template would be found.
 
 Below is a basic example of a theme's default template:
 
