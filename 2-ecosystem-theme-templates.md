@@ -48,6 +48,8 @@ Below is an example of a theme's default template `index.php`:
     <?php
     get_sidebar();
     get_footer();
+    
+## The Loop
 
 In the middle of the document we find something called The Loop:
 
