@@ -1,5 +1,5 @@
 ## Template parts
-When making templates we have to prevent duplicate code, as it will become hard to maintain. By wrapping common chunks into components (PHP-files) we can reduce the amount of code and simplify maintenance.
+When creating more templates we want to prevent having duplicate code, as it will become hard to maintain. By wrapping common code chunks into components (PHP-files) we can reduce the amount of code and simplify maintenance.
 
 Much of our templates will be built by template parts and this is how a template part is included:
 
