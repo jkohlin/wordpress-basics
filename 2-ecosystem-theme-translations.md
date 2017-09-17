@@ -13,11 +13,11 @@ In the Wordpress' root a folder called languages holds language files for Wordpr
 
 These files are just different versions of the same content, and will load when that specific language is defined in the current Wordpress configuration.
 
-Example from swedish.po:
+Example from english.po:
 
     #sidebar.php:8
       msgid "About the author"
-      msgstr "Om författaren"
+      msgstr ""
 
 In sidebar.php, instead of doing this:
 	
@@ -30,5 +30,14 @@ We can do this:
 The second argument is a string which adresses the current translation context. In a theme we can define a context and which folder to use in the very top of `functions.php`:
 
 	<?php load_theme_textdomain('my_theme_name_domain', get_template_directory() . '/languages'); ?>
+    
+Translating the theme is then as easy as creating new language files with values in the msgstr-field:
+
+Example from swedish.po:
+
+    #sidebar.php:8
+      msgid "About the author"
+      msgstr "Om författaren"
+
     
 
