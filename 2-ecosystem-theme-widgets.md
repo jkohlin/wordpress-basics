@@ -4,4 +4,4 @@ Widgets are small content/functionality blocks that can be added and controlled 
 
 The main benefit of widgets is that they let us add content and functionality not bound to . specific page or post, but rather theme positons. We as theme developers define these positions as widget areas, and choose where in our templates they are shown. The posts and pages using templates with widget ares, will then show all the widgets applied to these.
 
-A common widget is the *Search field*, which in the admin area let's the editor or admin choose the title and the button text of the search form. This widget is often applied to widget areas in header.php which will be included by all templates, thus showing the search widget.
+A common widget is the *Search field*, which in the admin area let's the editor or admin choose the title and the button text of the search form. This widget is often applied to widget areas in header.php, which will be included by all templates.
