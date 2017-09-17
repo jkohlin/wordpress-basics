@@ -5,9 +5,9 @@ When building themes we are adding labels, descriptions and namings to admin das
 As theme developers we need to prepare our themes for use in any language. This does not mean we have to do any translation, just to make our themes **possible** to be translated into any language.
 
 ### Translation files
-Wordpress handles translations with something called translation files. These are textbased files with key/value pairs of text strings. The value key holds the value which can be translated, and the key field is what we can use in templates and methods to output the translated string.
+Wordpress handles translations with something called translation files. These are textfiles with key/value pairs of strings. The value-field holds the string which can be translated, and the key field is what we use in theme to output the translated string.
 
-In the Wordpress' root we will find a folder called languages, with files for each translated language. For each language we find three files:
+In the Wordpress' root we will find a folder called languages, with lagunage files for Wordpress core. The same principle apllies to a theme, where we can have translation files in the folder `themes/theme-name/languages`.
 
 `{language}.po`, `{language}.pot`, `{language}.mo`
 
