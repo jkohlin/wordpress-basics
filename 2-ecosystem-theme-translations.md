@@ -19,15 +19,16 @@ Example from swedish.po:
       msgid "About the author"
       msgstr "Om författaren"
 
-In sidebar.php, we can output the current translation with:
+In sidebar.php, instead of doing this:
 	
-	<?php _e('About the author', 'my_theme_name_domain'); ?>
+	<?php echo 'About the author'; ?>
+    
+We can do this:
+	
+    <?php _e('About the author', 'my_theme_name_domain'); ?>
 
 The second argument is a string which adresses the current translation context. In a theme we can define a context and which folder to use in the very top of `functions.php`:
 
 	<?php load_theme_textdomain('my_theme_name_domain', get_template_directory() . '/languages'); ?>
-
-
-
-
+    
 
