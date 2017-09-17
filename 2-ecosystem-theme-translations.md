@@ -7,23 +7,26 @@ As theme developers we need to prepare our themes for use in any language. This 
 ### Translation files
 Wordpress handles translations with something called translation files. These are textfiles with key/value pairs of strings. The value-field holds the string which can be translated, and the key field is what we use in theme to output the translated string.
 
-In the Wordpress' root we will find a folder called languages, with lagunage files for Wordpress core. The same principle apllies to a theme, where we can have translation files in the folder `themes/theme-name/languages`.
+In the Wordpress' root we will find a folder called languages, with lagunage files for Wordpress' admin dashboard. The same principle applies to a theme, where we can have translation files in the folder `themes/theme-name/languages`. Each language is represented by three files:
 
 `{language}.po`, `{language}.pot`, `{language}.mo`
 
-These are different versions of the same content, and contain text strings in that language. When Wordpress is set to a specific languge, the corresponding files are loaded from the language folder and their strings are used.
-
-Just like this we can prepare our themes for translations. By creating a language folder in our theme's folder, with one translation file which will work as a blueprint for translation in outher languages. The keys inside this translation file are what we are using in our themes functions and templates, instead of hard-coded strings.
+These are just different versions of the same content, and will load when that specific language is defined in the current Wordpress configuration.
 
 Example from swedish.po:
 
-Not using localization:
+    #sidebar.php:8
+      msgid "About the author"
+      msgstr "Om författaren"
 
-`<?php echo 'your_text'; ?>`
 
-Using localization
+Then in sidebar.php, we can output the current translation with:
 	
-<?php _e('your_text', 'theme_name'); ?>
+	<?php _e('About the author', 'my_theme_name_domain'); ?>
+
+The second argument is a string, which defines the context of the translation. In a theme we can define this context and the folder to use, in the very top of the file `functions.php`:
+
+	<?php load_theme_textdomain('my_theme_name_domain', get_template_directory() . '/languages'); ?>
 
 
 
