@@ -1,6 +1,6 @@
 ## Translations
 
-As theme developers we need to prepare our themes for use in different languages. When we are building a theme we are adding new labels, descriptions and namings, in admin dashbord and in templates. To assume our theme is going to be used in only one specific language is stupid and bad practice. We need to prepare our theme for multiple languges.
+As theme developers we need to prepare our themes for use in different languages. When we are building a theme we are adding new labels, descriptions and namings, in admin dashbord and in templates. To assume these are going to be used in only one specific language is bad practice, so we need to prepare for multiple languges.
 
 This does not mean we have to do any translation, just to make our themes possible to be translated into any language.
 
