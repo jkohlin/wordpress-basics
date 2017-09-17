@@ -16,6 +16,8 @@ Outputing an image (`any-template.php`):
 
 	wp_get_attachment_image( 321, 'my-custom-imageversion' )
 
+*Arguments are ??, size-definition-name*
+[comment]: <> (Vad är 321 i anropet ovan?)
 When uploading an image into the Wordpress Media Library, a series of events is going to occur:
 
 1. The file is transfered to the web server via ftp protocol.
