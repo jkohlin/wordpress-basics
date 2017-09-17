@@ -1,11 +1,11 @@
 ## Translations
 
-When building themes we are adding new labels, descriptions and namings to admin dashbord and to our templates. Hard.coding these in one specific language is bad practice if our theme is not for personal use only. 
+When building themes we are adding labels, descriptions and namings to admin dashbord and to our templates. Hard.coding these in one specific language is bad practice if our theme is not for personal use only. 
 
 As theme developers we need to prepare our themes for use in different languages. This does not mean we have to do any translation, just to make our themes **possible** to be translated into any language.
 
 ### Translation files
-Wordpress handles translations with something called translation files. These are textbased files with key/value pairs of strings. The value key holds the value which can be translated, and the key field is what we can use in templates and methods to output the translated string.
+Wordpress handles translations with something called translation files. These are textbased files with key/value pairs of text strings. The value key holds the value which can be translated, and the key field is what we can use in templates and methods to output the translated string.
 
 In the Wordpress' root we will find a folder called languages, with files for each translated language. For each language we find three files:
 
