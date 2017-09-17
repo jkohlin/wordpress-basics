@@ -10,11 +10,13 @@ Defining image size (`functions.php`):
 
 	add_image_size( 'my-custom-imageversion', 1280, 1020, false )
 
-*Arguments are name, width, height, crop*
+*Arguments are version name, width, height, crop*
     
 Outputing an image (`any-template.php`):
 
 	wp_get_attachment_image( 321, 'my-custom-imageversion' )
+
+*Arguments are attachment ID, version name*
 
 When uploading an image into the Wordpress Media Library, a series of events is going to occur:
 
@@ -23,5 +25,3 @@ When uploading an image into the Wordpress Media Library, a series of events is 
 3. A post with post type *attachment* is created with information about the image files.
 
 Each image will be represented in the Media Library as one single image. This way a content editor won't have to worry about sizes and multiple variants.
-
-
