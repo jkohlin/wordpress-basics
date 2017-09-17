@@ -11,7 +11,7 @@ In the Wordpress' root a folder called languages holds language files for Wordpr
 
 `{language}.po`, `{language}.pot`, `{language}.mo`
 
-These files are just different versions of the same content, and will load when that specific language is defined in the current Wordpress configuration.
+These files are just different versions of the same content, and will load when that specific language is defined in the current Wordpress configuration. The .pot-file is a kind of blueprint containing all the translatable messages. The .po-file is what we get after translating a .pot-file into a specific language. The .mo-file is a binary version of the .po-file.
 
 Example from english.po:
 
@@ -38,6 +38,3 @@ Example from swedish.po:
     #sidebar.php:8
       msgid "About the author"
       msgstr "Om författaren"
-
-    
-
