@@ -24,7 +24,7 @@
         {% assign filename = node_url_parts | first %}
         {% assign url = filename | split: '/'t | last %}
         <li>
-          <a href="wordpress-basics{{ url }}">{{ url }}</a>
+          <a href="{{ url }}">{{ url }}</a>
         </li>
       {% endfor %}
     </ul>
