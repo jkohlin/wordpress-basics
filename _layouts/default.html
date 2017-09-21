@@ -20,6 +20,8 @@
         
          <ul>
       {% for p in site.pages %}
+        {% assign node_url_parts = p.url | split: '.html' %}
+        {% assign filename = node_url_parts | first %}
         <li>
           <a href="{{ p.url }}">{{ p.title }}</a>
         </li>
