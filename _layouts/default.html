@@ -22,8 +22,9 @@
       {% for p in site.pages %}
         {% assign node_url_parts = p.url | split: '.html' %}
         {% assign filename = node_url_parts | first %}
+        
         <li>
-          <a href="wordpress-basics{{ filename }}">{{ p.title }}</a>
+          <a href="wordpress-basics{{ filename }}">{{ filename }}</a>
         </li>
       {% endfor %}
     </ul>
