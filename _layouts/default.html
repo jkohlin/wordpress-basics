@@ -23,9 +23,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
+      
          <nav>
           {% for p in site.pages %}
             {% if page.url != '/assets/css/style.css' %}
