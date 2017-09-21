@@ -18,16 +18,16 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-         <ul>
-      {% for p in site.pages %}
-        {% assign node_url_parts = p.url | split: '.html' %}
-        {% assign filename = node_url_parts | first %}
-        {% assign url = filename | split: '/'t | last %}
-        <li>
-          <a href="{{ url }}">{{ url }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+         <nav>
+          {% for p in site.pages %}
+            {% assign node_url_parts = p.url | split: '.html' %}
+            {% assign filename = node_url_parts | first %}
+            {% assign url = filename | split: '/'t | last %}
+          
+              <a style="display:block;" href="{{ url }}">{{ url }}</a>
+            
+          {% endfor %}
+        </nav>
 
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
