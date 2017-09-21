@@ -24,11 +24,11 @@
             {% assign node_url_parts = p.url | split: '.html' %}
             {% assign filename = node_url_parts | first %}
             {% if page.url == p.url %}
-              CURRENT
+              {% assign class = 'current' %}
             {% endif %}
             {% assign url = filename | split: '/'t | last %}
           
-              <a class="" style="display:block;" href="{{ url }}">{{ url }}</a>
+              <a class="{{class}}" style="display:block;" href="{{ url }}">{{ url }}</a>
             
           {% endfor %}
         </nav>
