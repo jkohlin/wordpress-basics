@@ -28,18 +28,18 @@
         
          <nav>
           {% for p in site.pages %}
-            
-            {% assign node_url_parts = p.url | split: '.html' %}
-            {% assign filename = node_url_parts | first %}
-            {% if page.url == p.url %}
-              {% assign class = 'current' %}
-             {% else %}
-              {% assign class = '' %}
-            {% endif %}
-            {% assign url = filename | split: '/'t | last %}
-          
+            {% if page.url != '/assets/css/style.css' %}
+              {% assign node_url_parts = p.url | split: '.html' %}
+              {% assign filename = node_url_parts | first %}
+              {% if page.url == p.url %}
+                {% assign class = 'current' %}
+               {% else %}
+                {% assign class = '' %}
+              {% endif %}
+              {% assign url = filename | split: '/'t | last %}
+
               <a class="{{class}}" style="display:block;" href="{{ url }}">{{ url }}</a>
-            
+            {% endif %}
           {% endfor %}
         </nav>
 
