@@ -62,6 +62,7 @@ Take a look on the content plan, which describes all pages and post types you wi
 | Home  |  page | index.php  | Current page |  
 | About me  |  page | index.php  | Current page  | 
 | My work  | page | portfolio.php | All posts with post type 'job' |
+| A sample job  | job | single-job.php | A single job |
 
 1. Register all required post types
 2. Create posts, pages and 
