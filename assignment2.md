@@ -42,34 +42,7 @@ In the folder you just cloned we now need to add the very basic files required b
 
 4. Commit and push your new theme back to Github.
 
-## 3 - Content structure
-Study the content plans below and notice the different content types we will need. The types *post* and *page* are default types already added, therefor we only need to add one custom post type - *project*. Our projects could have been added as regular posts, but for this theme we want projects to be distinguished from regular blog posts. You will see why later on.
+## 3 - Content plan
+Below are the wireframes describing all required templates and their layout. Create them by using Wordpress templates and template parts, and try not to repeat yourself when building them.
 
-[Content Plan](http://farkost.se/wordpress-basics/content-plan)
 
-#### Tasks
-1. In `functions.php`, add a new post type with the following options:
-```
-$options = array(
-      'name' => 'Projects',
-      'singular_name' => 'project',
-      'public' => true,
-      'publicly_queryable' => true,
-      'show_ui' => true,
-      'query_var' => true,
-      'rewrite' => array('slug' => 'projects'),
-      'capability_type' => 'post',
-      'hierarchical' => false,
-      'has_archive' => true,
-      'menu_position' => null,
-      'supports' => array(
-      	'title',
-      	'editor',
-      	'thumbnail',
-      	'comments'
-      ),
-```
-
-> Read: https://codex.wordpress.org/Post_Types
-
-## 3 - Templates
