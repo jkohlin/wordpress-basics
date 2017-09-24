@@ -1,20 +1,22 @@
 ## What is Wordpress?
 
-First and foremost, Wordpress is a tool for *creating and managing content*. As a website owner or editor you will get access to an area hidden from everyone else - the admin dashboard. This is where you write and manage your content. The simple and user friendly interface is what made and still makes Wordpress so popular. From the admin dashboard you get full control over the website, not only editorial content.
+Wordpress is a tool for *creating and managing content*. As a website owner or editor you will get access to an area hidden from everyone else - the admin dashboard. This is where you write and manage your content. The simple and user friendly interface is what made and still makes Wordpress so popular. From the admin dashboard you get full control over the website, not only editorial content.
 
-### Open source
-Who owns Wordpress? The brand and trademark is owned by the Wordpress Foundation, a charitable organisation founded by the author of the code base. The code base it self is open source and maintained by the community, refering to anyone involved with writing code and taking part in the development. 
+### Who owns Wordpress?
+The brand and trademark is owned by the Wordpress Foundation, a charitable organisation founded by the author of the code base. The code base it self is open source and maintained by the community, refering to anyone involved with writing code, designing or taking part in the development. 
 
-Anyone can retrieve the source code for Wordpress and start making improvements, or create a completely new product. The core developer team will review all pull requests and implement them if the community approves. This way Wordpress is kept relevant and in sync with the ever changing web. 
+Anyone can get the source code for Wordpress and start making improvements or create a completely new product. The core developer team will review all pull requests and implement them if the community approves. This way Wordpress is kept relevant and in sync with the ever changing web. 
 
-Every month the Wordpress team will push out new releases, which is important to know when using Wordpress. Your job as a the owner or maintainer of a Wordpress website is to keep up with all updates, and make sure your Wordpress installation using the latest release all the time.
+### Updates
+It's important to keep Worpdress installations up to date, which can be done easily from the admin dashboard. New releases with security fixes and improvements becomes available many times a year. All the old version's weakness and bugs are then out in the for anyone to use against you. So try keep up with the releases.
 
 ### How it works
-What you see when using Wordpress is really just at GUI for the database, with fields and buttons to enter and save data. To store the data a MySQL database is used.
+Wordpress data is stored in a Mysql database. The way wordpress lets you manage the content is via the admin dashboard, a GUI interface known for beeing quite user friendy. From there you can create, edit and delete content, users and manage all kinds of settings.
 
-When using Wordpress for public websites, Wordpress will handle the client's HTTP request, fetch content from the database and with that render PHP-based templates. These are returned as HTML-files to the visitors as the HTTP response.
+### Data flow
+Wordpress will handle your website's HTTP requests, fetch content from the database and then render it with PHP-based templates. These are returned as HTML-files to the client as a HTTP response.
 
-The Wordpress ecosystem is built with PHP which is a server language, meaning you'll need a web server to run Wordpress. Wrapping it up, these are the required components:
+The ecosystem is built on PHP which is a server language, meaning you'll need a web server to run Wordpress. 
 
  - Web server (commonly used are Ngninx or Apache)
  - PHP (currently version 7.0 or later)
