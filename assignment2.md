@@ -1,16 +1,14 @@
 # Assignment 2 - Personal portfolio
 
-We are going to build a portfolio theme for a personal presentation along with any kind of creative content. The theme will be built as a standalone Wordpress theme, 
+We are going to build a portfolio theme for a personal presentation, blog feed and a portfolio list with any kind of creative content. You will be handed a website brief with plans for content and layout.
 
-### Prerequisites
-Before the theme development you will need to have the following:
-
+### Development prerequisites
 * A working local wordpress installation
 * Git installed locally
 * A Github account
 
 ## 1 - Project setup
-Your theme will be version controlled with Git, and have a personal remote repository on Github. 
+Your theme will be version controlled with Git, and have a personal remote repository on Github controlled by your teacher. To present your current work, all you need to do is push to remote repository.
 
 1. Generate your personal theme repository via Github Classroom:
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
@@ -20,11 +18,17 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 5. Commit and push your new theme back to Github.
 
 ## 3 - Content model (post types)
-| Title  | Slug | Hierarchial  | Supports  |  
+
+Study the content model plan below and create the required custom post types.
+
+| Title  | Slug | Hierarchial  | Rewrite  |  
 |---|---|---|---|
-| page *(default)*  | job | true | A single job |
-| post *(default)*  | job | false | A single job |
+| page *(default)*  | post | true | - |
+| post *(default)*  | page | false | - |
 | job *(custom)*  | job | false | A single job |
+
+> Registering custom post types: types: https://codex.wordpress.org/Function_Reference/register_post_type
+> Wordpress default post types: https://codex.wordpress.org/Post_Types
 
 ## 4 - Adding Content
 Take a look on the content plan below, and begin by register all custom post types.
