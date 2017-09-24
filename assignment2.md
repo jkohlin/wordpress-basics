@@ -19,33 +19,38 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 4. Activate your new theme via Wordpress Dashboard (Appearence->Theme).
 5. Commit and push your new theme back to Github.
 
-## 3 - Content plan
-Take a look on the content plan below, and begin by register all custom post types.
-
-### Hierarchial posts
-| Title  | Post type  | Template file  | Content to present  |  
-|---|---|---|---|
-| Home  |  page | index.php  | Current page |  
-| About me  |  page | index.php  | Current page  | 
-| My work  | page | portfolio.php | All posts with post type 'job' |
-
-### Non-hierarchial posts
-| Title  | Post type  | Template file  | Content to present  |  
-|---|---|---|---|
-| My first job  | job | single-job.php | A single job |
-| My second job  | job | single-job.php | A single job |
-| My first blog post  | post | single.php | A single blog post |
-| My second blog post  | post | single.php | A single blog post |
-
-### Post types
+## 3 - Content model (post types)
 | Title  | Slug | Hierarchial  | Supports  |  
 |---|---|---|---|
 | page  | job | true | A single job |
 | post  | job | false | A single job |
 | job  | job | false | A single job |
 
-1. Register all required post types
-2. Create posts, pages and 
+## 4 - Adding Content
+Take a look on the content plan below, and begin by register all custom post types.
+
+### Hierarchial posts (pages)
+| Title  | Post type  | Template  |
+|---|---|---|
+| Home  |  page | Default  | 
+| About me  |  page | Default  |
+| My work  | page | Portfolio |
+
+### Non-hierarchial posts
+| Title  | Post type  |
+|---|---|
+| My first job  | job |
+| My second job  | job |
+| My first blog post  | post |
+| My second blog post  | post |
+
+### Templates
+| Name | Template file  | Content to present  |  
+|---|---|---|
+|   | single-job.php | A single job |
+| My second job  | single-job.php | A single job |
+| My first blog post  | single.php | A single blog post |
+| My second blog post  | post | single.php | A single blog post |
 
 ## 4 - Templates
 Below are the wireframes describing all required templates and their layout. Create them by using Wordpress templates and template parts, and try not to repeat yourself when building them.
