@@ -50,12 +50,18 @@ Add the minimum required files in the theme folder, for Wordpress to recognize i
         ?>
 ```
 
-3. Save your `style.css` file and activate your new theme via Wordpress Dashboard (Appearence->Theme).
+4. Save your `style.css` file and activate your new theme via Wordpress Dashboard (Appearence->Theme).
 
-4. Commit and push your new theme back to Github.
+5. Commit and push your new theme back to Github.
 
 ## 3 - Content plan
 Take a look on the content plan, which describes all pages and post types you will need. 
+
+| Name  | Post type  | Template file  | Content to present  |  
+|---|---|---|---|---|
+| Home  |  page | index.php  | Current page |  
+| About me  |  page | index.php  | Current page  | 
+| My work  | page | portfolio.php | All posts with post type 'job' |
 
 1. Register all required post types
 2. Create posts, pages and 
