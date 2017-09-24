@@ -22,9 +22,9 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 ## 3 - Content model (post types)
 | Title  | Slug | Hierarchial  | Supports  |  
 |---|---|---|---|
-| page  | job | true | A single job |
-| post  | job | false | A single job |
-| job  | job | false | A single job |
+| page *(default)*  | job | true | A single job |
+| post *(default)*  | job | false | A single job |
+| job *(custom)*  | job | false | A single job |
 
 ## 4 - Adding Content
 Take a look on the content plan below, and begin by register all custom post types.
