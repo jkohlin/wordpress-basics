@@ -1,0 +1,11 @@
+### Under the hood
+When we work in the admin dashboard we are really just doing database commands via a user friendly interface. Behind the scene Wordpress writes and reads from a set of tables created during install. For this a Mysql database is used.
+
+The Wordpress software is written in PHP and runs on a web server. So when we are self-hosting Wordpress we need the following components in place:
+
+ - Web server (commonly used are Ngninx or Apache)
+ - PHP (currently version 7.0 or later)
+ - MySQL Database
+ - HTTPS-support (a security requirement introduced 2017)
+
+Source: https://wordpress.org/about/requirements/
