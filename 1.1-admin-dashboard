@@ -1,4 +1,4 @@
-## Managing content
+## The admin dashboard
 Wordpress core functionality is all about managing and serving content. All this is available via methods and classes, and all we need to use them is to authenticate via the Wordpress User system.
 
 The admin dashboard is a graphic user interface which editors and owners can use to manage content, without any progrmming skills. Content is ordered into different sections, accessible via the navigation. These are the default sections:
