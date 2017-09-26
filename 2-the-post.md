@@ -1,7 +1,7 @@
 ## The Wordpress Post
-The Wordpress Post is a general data model which is used to hold Wordpress content. Almost any content in Wordpress is some kind of post, and stored in the same database table. However, in the admin dashboard the different post types are separated into their own sections to simplify content management.
+The Wordpress Post is a general data model which is used to hold Wordpress content. Almost any content in Wordpress is some kind of post, and stored in the same database table. However, in the Wordpress Dashboard different post types are separated into their own sections, to simplify content management.
 
-As default we are dealing with the following fields for a single post:
+As default we are dealing with the following fields for a Wordpress post:
 
 **ID**
 The unique key to this post.
@@ -31,4 +31,5 @@ Is this article published? Or is it still pending, awating approval? This field 
 **post_type**
 As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. 
 
-
+### The database
+All posts are stored in the MySQL database in a gtable called **wp_posts**.
