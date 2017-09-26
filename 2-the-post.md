@@ -3,22 +3,22 @@ The Wordpress Post is a general data model which is used to hold Wordpress conte
 
 As default we are dealing with the following fields for a single post:
 
-#### ID
+**ID**
 The unique key to this post.
 
-#### post_author
+**post_author**
 Who created this post? A reference ID to the responsible Wordpress user.
 
-#### post_date
+**post_date**
 When was this post first published?
 
-#### post_title
+**post_title**
 What is the title of this article?
 
-#### post_content
+**post_content**
 The post's primary content with text, links and media references
 
-#### post_status
+**post_status**
 Is this article published? Or is it still pending, awating approval? This field can have the following values:
 
 - publish (Live on the website.)
@@ -28,7 +28,7 @@ Is this article published? Or is it still pending, awating approval? This field 
 - private (Viewable only to WordPress users at Administrator level.)
 - trash (Deleted article)
 
-#### post_type
+**post_type**
 As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. 
 
 
