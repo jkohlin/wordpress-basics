@@ -1,6 +1,6 @@
 ## What is Wordpress?
 
-Wordpress is a tool for *creating and managing content*. As a website owner or editor you will get access to an area hidden from everyone else - the admin dashboard. This is where you write and manage your content. The simple and user friendly interface is what made and still makes Wordpress so popular. From the admin dashboard you get full control over the website, not only editorial content.
+Wordpress is a Content Management System (CMS) wich is used for *creating, managing and serving content*. The Wordpress software exposes a set of classes and methods used to read from and write to a underlying database. Wordpress also comes with a graphic admin area called Wordpress Dashboard. From this dashboard anyone can manage content and settings without any programming skills. To access the content management we need to authenticate via the built in User system.
 
 ### Who owns Wordpress?
 The brand and trademark is owned by the Wordpress Foundation, a charitable organisation founded by the author of the code base. The code base it self is open source and maintained by the community, refering to anyone involved with writing code, designing or taking part in the development. 
