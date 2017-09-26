@@ -31,5 +31,21 @@ Is this article published? Or is it still pending, awating approval? This field 
 **post_type**
 As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. 
 
+### Post Format
+When rendering content we sometimes need to adapt the layuot to fit the specific content. *Post format* is a value which set by the author when creating the content. There are a number of pre-set values available and we are limited to use one of the values to describe our content. The currently available values are:
+
+aside
+gallery
+link
+image
+quote
+status
+video
+audio
+chat
+Source: https://codex.wordpress.org/Post_Formats
+
+> The post format value itself does not control any behavior or layout. It's all up to you as a theme developer what to do with the information.
+
 ### The database
 All posts are stored in the MySQL database in a gtable called **wp_posts**.
