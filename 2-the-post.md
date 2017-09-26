@@ -48,4 +48,4 @@ Source: https://codex.wordpress.org/Post_Formats
 > The post format value itself does not control any behavior or layout. It's all up to you as a theme developer what to do with the information.
 
 ### The database
-All posts are stored in the MySQL database in a gtable called **wp_posts**.
+All posts are stored in the MySQL database in a table called **wp_posts**.
