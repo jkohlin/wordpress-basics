@@ -10,21 +10,6 @@ Anyone can get the source code for Wordpress and start making improvements or cr
 ### Updates
 It's important to keep Worpdress installations up to date, which can be done easily from the admin dashboard. New releases with security fixes and improvements becomes available many times a year. All the old version's weakness and bugs are then out in the for anyone to use against you. So try keep up with the releases.
 
-### How it works
-Wordpress data is stored in a Mysql database. The way wordpress lets you manage the content is via the admin dashboard, a GUI interface known for beeing quite user friendy. From there you can create, edit and delete content, users and manage all kinds of settings.
-
-### Data flow
-Wordpress will handle your website's HTTP requests, fetch content from the database and then render it with PHP-based templates. These are returned as HTML-files to the client as a HTTP response.
-
-The ecosystem is built on PHP which is a server language, meaning you'll need a web server to run Wordpress. 
-
- - Web server (commonly used are Ngninx or Apache)
- - PHP (currently version 7.0 or later)
- - MySQL Database
- - HTTPS-support (a security requirement introduced 2017)
-
-Source: https://wordpress.org/about/requirements/
-
 ### Hosted vs. Self hosted
 The aproach of running Wordpress on your own, by using your own web server or a hosting provider, is in Wordpress terms refered to as 'self-hosted Wordpress'. What that really means is that you are responsible for setting up everything yourself. There are hosting providers which offers easy installs of Wordpress, but in the end of the day it's up to you as the owner for everything to work.
 
