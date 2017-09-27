@@ -29,7 +29,7 @@ Reading from a content plan and prepare Wordpress using the theme. Adding the co
 Create templates by following wireframe sketches.
 
 ## 1 - Theme setup
-In your theme folder, create the following files and content:
+Begin by preparing your theme for development and creating the required files.
 
 * **index.php**
   ```
@@ -38,7 +38,12 @@ In your theme folder, create the following files and content:
 
 * **functions.php**
   ```
-  <?php echo 'Speech is silver. '; ?>
+  <?php 
+  
+  add_theme_support( 'post-thumbnails' );
+  add_theme_support( ‘menus’ );
+  
+  echo 'Speech is silver. '; ?>
   ```
 
 * **style.css**
