@@ -63,14 +63,14 @@ With these four files in place inside your theme folder, you should be able to a
 ## 3 - Content
 
 **Job post type**
-| Option | Value|
-|---|---|
-| name  | Jobs |
-| slug  | job |
-| rewrite  | true |
-| hierarchical | false |
-| taxonomies  | job_type |
 
+| Option | Value |
+|---|---|
+| name | Jobs |
+| slug | job |
+| rewrite | true |
+| hierarchical | false |
+| taxonomies | job_type |
 
 ## 4 - Adding Content
 Take a look on the content plan below, and begin by register all custom post types.
