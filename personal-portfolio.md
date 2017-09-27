@@ -42,14 +42,13 @@ In your theme folder, create the following files and content:
   ```
 
 * **style.css**
-  ```
-  /*
-  Theme Name: Portfolio theme
-  Author: [Your Name]
-  Description: A theme to present creative work
-  */
-  
-  ```
+```css
+    /*
+    Theme Name: Portfolio theme
+    Author: [Your Name]
+    Description: A theme to present creative work
+    */
+```
 ## 3 - Content model (post types)
 
 Study the content model plan below and create the required custom post types.
