@@ -37,13 +37,15 @@ Begin by preparing your theme for development and creating the required files.
   ```
 
 * **functions.php**
-  ```
+  ```
   <?php 
   
   add_theme_support( 'post-thumbnails' );
   add_theme_support( ‘menus’ );
   
-  echo 'Speech is silver. '; ?>
+  echo 'Speech is silver. '; 
+  
+  ?>
   ```
 
 * **style.css**
