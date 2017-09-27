@@ -53,24 +53,22 @@ In your theme folder, create the following files and content:
 Download and rename from:
 http://via.placeholder.com/1200x900/000.png/fff?text=PORTFOLIO%20THEME
 
----
 ### Result
 With these four files in place inside your theme folder, you should be able to activate the theme via the admin dashboard. After a successful activation, you should be able to visit your website's homepage and see "Speech is silver. Silence is golden."
 
 **Push your new theme to the remote repository.**
 
-## 3 - Content model (post types)
+---
 
-Study the content model plan below and create the required custom post types.
+## 3 - Content
 
-| Title  | Slug | Hierarchial  | Rewrite  |  
-|---|---|---|---|
-| page *(default)*  | post | true | - |
-| post *(default)*  | page | false | - |
-| job *(custom)*  | job | false | A single job |
+**Job post type**
+| name  | Jobs |
+| slug  | job |
+| rewrite  | true |
+| hierarchical | false |
+| taxonomies  | job_type |
 
-> Registering custom post types: types: https://codex.wordpress.org/Function_Reference/register_post_type
-> Wordpress default post types: https://codex.wordpress.org/Post_Types
 
 ## 4 - Adding Content
 Take a look on the content plan below, and begin by register all custom post types.
