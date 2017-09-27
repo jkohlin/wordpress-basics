@@ -9,14 +9,12 @@ In the assignment only the theme folder will be version controlled with Git.
 * A Github account
 * Personal repository via Github Classroom
 
-Github Classroom will be used as remote repository, where your teacher also can follow and comment on your work. You will work in your local environment and push to the Github repository after each assignment.
+### Github Classroom
+Github Classroom will be used as your remote Git repository, where your teacher can follow and comment on your work. You will work in your local environment and push to the remote repository after each assignment.
 
 1. Generate your personal theme repository:
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
-3. Replace the content in style.css with your personal information. Save the file.
-4. Activate your new theme via Wordpress Dashboard (Appearence->Theme).
-5. Commit and push your new theme back to Github.
 
 ## 3 - Content model (post types)
 
