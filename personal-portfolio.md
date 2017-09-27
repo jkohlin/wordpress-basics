@@ -28,6 +28,28 @@ Reading from a content plan and prepare Wordpress using the theme. Adding the co
 **3. Templates:**
 Create templates by following wireframe sketches.
 
+## 1 - Theme setup
+In your theme folder, create the following files and content:
+
+* **index.php**
+  ```
+  <?php echo 'Silence is golden'; ?>
+  ```
+
+* **functions.php**
+  ```
+  <?php echo 'Speech is silver'; ?>
+  ```
+
+* **style.css**
+  ```
+  /*
+  Theme Name: Portfolio theme
+  Author: [Your Name]
+  Description: A theme to present creative work
+  */
+  
+  ```
 ## 3 - Content model (post types)
 
 Study the content model plan below and create the required custom post types.
