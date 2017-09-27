@@ -1,16 +1,17 @@
-# Assignment 2 - Personal portfolio
+# Project - Personal portfolio theme
+You are going to build a new Wordpress theme for a personal portfolio, to present some kind of creative work along with contact and bio. The theme will be built from scratch, and you will add only the absolute required components. The result will be a very lightweight and simple theme which you can use as it is, or extend into something more complex.
 
-We are going to build a new Wordpress theme for a personal portfolio, to present some kind of creative work along with contact and bio. The theme will be built from absolute zero, to contain only the components we really need. The result will be a lightweight theme which you can continue to extend into something more complex later.
+In the assignment only the theme folder will be version controlled with Git.
 
-### Development prerequisites
-* A working local wordpress installation
+### Prerequisites
+* A working local Wordpress installation
 * Git installed locally
 * A Github account
+* Personal repository via Github Classroom
 
-## 1 - Project setup
-Your theme will be version controlled with Git, and have a personal remote repository on Github controlled by your teacher. To present your current work, all you need to do is push to remote repository.
+Github Classroom will be used as remote repository, where your teacher also can follow and comment on your work. You will work in your local environment and push to the Github repository after each assignment.
 
-1. Generate your personal theme repository via Github Classroom:
+1. Generate your personal theme repository:
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
 3. Replace the content in style.css with your personal information. Save the file.
