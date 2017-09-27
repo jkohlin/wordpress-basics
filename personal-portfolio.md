@@ -33,12 +33,12 @@ In your theme folder, create the following files and content:
 
 * **index.php**
   ```
-  <?php echo 'Silence is golden'; ?>
+  <?php echo 'Silence is golden.'; ?>
   ```
 
 * **functions.php**
   ```
-  <?php echo 'Speech is silver'; ?>
+  <?php echo 'Speech is silver. '; ?>
   ```
 
 * **style.css**
@@ -49,6 +49,19 @@ In your theme folder, create the following files and content:
     Description: A theme to present creative work
     */
 ```
+* **screenshot.png**
+Download and rename from:
+http://via.placeholder.com/1200x900/000.png/fff?text=PORTFOLIO%20THEME
+
+---
+
+With these four files in place inside your theme folder, you should be able to activate the theme via the admin dashboard.
+
+### Result
+After a successful activation, you should be able to visit your website's homepage and see "Speech is silver. Silence is golden."
+
+**Push your new theme to the remote repository.**
+
 ## 3 - Content model (post types)
 
 Study the content model plan below and create the required custom post types.
