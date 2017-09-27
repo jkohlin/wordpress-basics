@@ -1,6 +1,6 @@
 # Assignment 2 - Personal portfolio
 
-We are going to build a portfolio theme for a personal presentation, blog feed and a portfolio list with any kind of creative content. You will be handed a website brief with plans for content and layout.
+We are going to build a new Wordpress theme for a personal portfolio, to present some kind of creative work along with contact and bio. The theme will be built from absolute zero, to contain only the components we really need. The result will be a lightweight theme which you can continue to extend into something more complex later.
 
 ### Development prerequisites
 * A working local wordpress installation
