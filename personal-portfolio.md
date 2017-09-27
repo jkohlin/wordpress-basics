@@ -37,8 +37,7 @@ Begin by preparing your theme for development and creating the required files.
   ```
 
 * **functions.php**
-  ```
-  <?php 
+  ```<?php 
   
   add_theme_support( 'post-thumbnails' );
   add_theme_support( ‘menus’ );
@@ -46,7 +45,7 @@ Begin by preparing your theme for development and creating the required files.
   echo 'Speech is silver. '; 
   
   ?>
-  ```
+  ```
 
 * **style.css**
 ```css
