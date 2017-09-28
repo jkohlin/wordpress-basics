@@ -35,3 +35,5 @@ http://via.placeholder.com/1200x900/000.png/fff?text=PORTFOLIO%20THEME
 With these four files in place inside your theme folder, you should be able to activate the theme via the admin dashboard. After a successful activation, you should be able to visit your website's homepage and see "Speech is silver. Silence is golden."
 
 **Push your new theme to the remote repository.**
+
+> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
