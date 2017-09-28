@@ -2,7 +2,7 @@
 
 The wireframe sketches explains the website's different views, and how content is layed out on them.
 
-[Link to wireframe sketches]
+[Wireframe sketches](documents/portfolio-theme.pdf)
 
 ### Bulding blocks
 Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks. In Wordpress we can use template parts for this, and use them to build templates.
