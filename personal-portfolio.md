@@ -16,19 +16,7 @@ Github Classroom will be used as your remote Git repository, where your teacher 
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
 
-### Project plan
-The project is divided into three assignments:
-
-**1. Setup:**
-Create the basic theme files required for theme activation.
-
-**2. Content:**
-Reading from a content plan and prepare Wordpress using the theme. Adding the content.
-
-**3. Templates:**
-Create templates by following wireframe sketches.
-
-## 1 - Theme setup
+## Assignment 1 - Theme setup
 Begin by preparing your theme for development and creating the required files.
 
 * **index.php**
@@ -37,14 +25,16 @@ Begin by preparing your theme for development and creating the required files.
   ```
 
 * **functions.php**
-  ```<?php 
-  
-  add_theme_support( 'post-thumbnails' );
-  add_theme_support( ‘menus’ );
-  
-  echo 'Speech is silver. '; 
-  
-  ?>
+  ```
+   <?php 
+
+   //Theme support
+   add_theme_support( 'post-thumbnails' );
+   add_theme_support( ‘menus’ );
+
+   echo 'Speech is silver. '; 
+
+   ?>
   ```
 
 * **style.css**
@@ -66,7 +56,25 @@ With these four files in place inside your theme folder, you should be able to a
 
 ---
 
-## 3 - Content
+##  Assignment 2 - Content
+The content is central and should control the presentation of both the backend and frontend views. A Wordpress theme can adapt both frontend templates and admin dashboard. Below is the content plan, where we find which post types and taxonomies we need to prepare for.
+
+[Link to content plan]
+
+#### Tasks
+1. Register all required post types and taxonomies from the content plan.
+1. Define the required image sizes.
+2. Create and publish all posts via admin dashboard.
+
+**Push your new theme to the remote repository.**
+
+## Assignment 3 - Templates
+#### Wireframes
+The wireframes sketches explains the website's different views, and how content is layed out on them. From that we can see the common elements we need to create as template parts.
+
+[Link to wireframes pdf]
+
+Some elements will follow all these 
 
 **Job post type**
 
