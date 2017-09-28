@@ -5,15 +5,17 @@ The wireframe sketches explains the website's different views, and how content i
 [Link to wireframe sketches]
 
 ### Bulding blocks
-Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks.
+Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks. In Wordpress we can use template parts for this, and use them to build templates.
+
+> Tip: Add static HTML for now where real content is missing. COme back later and change to outputing real content.
 
 ---
 #### Header (header.php)
 A common area used in all views with the logo, description and menu.
 
-* Logo - Should be linked to the website's **home url** and show the **site title**
-* Description - Should be linked and show the **site description**
-* Menu - Should be using a **custom menu**
+* Logo - Should be linked to the website's **home url** and show the **site title**.
+* Description - Should be linked and show the **site description**.
+* Menu - Should be showing a specific **custom menu**.
 ---
 #### Post grid (partials/postgrid.php)
 A list of posts losted in a grid with a taxonomy filter.
@@ -28,4 +30,6 @@ Presenting the content from a single post with image, text and taxonomy terms.
 * Title - The current post's title.
 * Terms - The terms in a specific taxonomy, connected to the current post or all terms available in a specific taxonomy.
 ---
-### Templates
+
+### Result
+Create all the template parts and with them create a minimum amount of templates to match the wireframe sketches.
