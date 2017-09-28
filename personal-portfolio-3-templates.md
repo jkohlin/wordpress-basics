@@ -36,3 +36,5 @@ Presenting the content from a single post with image, text and taxonomy terms.
 Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template should begin with `get_header()` and end with `get_footer()`;
 
 **Push your theme to the remote repository.**
+
+> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
