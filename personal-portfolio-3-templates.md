@@ -1,8 +1,12 @@
 ## Assignment 3 - Templates
 
-The wireframe sketches explains the website's different views, and how content is layed out on them. Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks.
+The wireframe sketches explains the website's different views, and how content is layed out on them.
+
+[Link to wireframe sketches]
 
 ### Bulding blocks
+Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks.
+
 ---
 #### Header (header.php)
 A common area used in all views with the logo, description and menu.
