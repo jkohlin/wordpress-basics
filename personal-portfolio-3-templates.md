@@ -33,4 +33,4 @@ Presenting the content from a single post with image, text and taxonomy terms.
 ### Result
 Create all the template parts and with them create a minimum amount of templates to match the wireframe sketches.
 
-**Push your new theme to the remote repository.**
+**Push your theme to the remote repository.**
