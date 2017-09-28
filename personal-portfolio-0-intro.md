@@ -16,4 +16,7 @@ Github Classroom will be used as your remote Git repository, where your teacher 
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
 
+### Slack channel
+You can connect to our Slack channel if using your @ju.se email address. https://frkst.slack.com/messages/G6U1QN5GT
+
 > Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
