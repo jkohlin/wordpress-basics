@@ -7,9 +7,8 @@ The wireframe sketches explains the website's different views, and how content i
 ### Bulding blocks
 Before defining which templates we might need, a good start is to define the common parts of each template to instead create their building blocks. In Wordpress we can use template parts for this, and use them to build templates.
 
-> Tip: Add static HTML for now where real content is missing. COme back later and change to outputing real content.
+> Tip: Add static HTML for now where real content is missing. Come back later and change to outputing real content.
 
----
 #### Header (header.php)
 A common area used in all views with the logo, description and menu.
 
