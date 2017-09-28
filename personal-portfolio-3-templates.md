@@ -9,7 +9,7 @@ Before defining which templates we might need, a good start is to define the com
 
 > Tip: Add static HTML for now where real content is missing. Come back later and change to outputing real content.
 
-#### Navigation header (partials/navhead.php)
+`partials/navhead.php`
 A common area used in all views with the logo, description and menu.
 
 * Logo - Should be linked to the website's **home url** and show the **site title**.
@@ -17,13 +17,13 @@ A common area used in all views with the logo, description and menu.
 * Menu - Should be showing a specific **custom menu**.
 
 ---
-#### Post grid (partials/postgrid.php)
+`partials/postgrid.php`
 A list of posts losted in a grid with a taxonomy filter.
 
 * Filter - Listing a taxonomy's terms to filter the grid items with querystring parameters.
 * Post list - Looping all posts within a specific post type and the current querystring value.
 ---
-#### Content row (partials/content.php)
+`partials/content.php`
 Presenting the content from a single post with image, text and taxonomy terms.
 
 * Navigation - A breadcrumbs menu showing current level and a way back to home.
