@@ -8,4 +8,4 @@ Content is still king and should control the presentation of both the backend an
 1. Define the required image sizes.
 2. Create and publish all posts via admin dashboard.
 
-**Push your new theme to the remote repository.**
+**Push your theme to the remote repository.**
