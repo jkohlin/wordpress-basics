@@ -9,3 +9,5 @@ Content is still king and should control the presentation of both the backend an
 2. Create and publish all posts via admin dashboard.
 
 **Push your theme to the remote repository.**
+
+> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
