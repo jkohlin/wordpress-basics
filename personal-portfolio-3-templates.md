@@ -9,12 +9,13 @@ Before defining which templates we might need, a good start is to define the com
 
 > Tip: Add static HTML for now where real content is missing. Come back later and change to outputing real content.
 
-#### Header (header.php)
+#### Navigation header (partials/navhead.php)
 A common area used in all views with the logo, description and menu.
 
 * Logo - Should be linked to the website's **home url** and show the **site title**.
 * Description - Should be linked and show the **site description**.
 * Menu - Should be showing a specific **custom menu**.
+
 ---
 #### Post grid (partials/postgrid.php)
 A list of posts losted in a grid with a taxonomy filter.
@@ -31,6 +32,6 @@ Presenting the content from a single post with image, text and taxonomy terms.
 ---
 
 ### Result
-Create all the template parts and with them create a minimum amount of templates to match the wireframe sketches.
+Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template must contain `get_header()` and `get_footer()`;
 
 **Push your theme to the remote repository.**
