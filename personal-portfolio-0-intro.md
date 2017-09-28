@@ -15,3 +15,5 @@ Github Classroom will be used as your remote Git repository, where your teacher 
 1. Generate your personal theme repository:
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
+
+> Tip: If you need the prefered sokution for anything, use Google or Wordpress Offical Codex: https://codex.wordpress.org/
