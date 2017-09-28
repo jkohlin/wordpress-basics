@@ -32,6 +32,6 @@ Presenting the content from a single post with image, text and taxonomy terms.
 ---
 
 ### Result
-Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template must contain `get_header()` and `get_footer()`;
+Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template should begin with `get_header()` and end with `get_footer()`;
 
 **Push your theme to the remote repository.**
