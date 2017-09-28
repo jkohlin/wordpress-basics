@@ -20,12 +20,13 @@ A common area used in all views with the logo, description and menu.
 #### Post grid (partials/postgrid.php)
 A list of posts losted in a grid with a taxonomy filter.
 
-* Filter - Listing a taxonomy's terms to filter the grid items with JavaScript
-* Post list - Looping all posts within a specific post type.
+* Filter - Listing a taxonomy's terms to filter the grid items with querystring parameters.
+* Post list - Looping all posts within a specific post type and the current querystring value.
 ---
 #### Content row (partials/content.php)
 Presenting the content from a single post with image, text and taxonomy terms.
 
+* Navigation - A breadcrumbs menu showing current level and a way back to home.
 * Image - The current post's featured image.
 * Title - The current post's title.
 * Terms - The terms in a specific taxonomy, connected to the current post or all terms available in a specific taxonomy.
