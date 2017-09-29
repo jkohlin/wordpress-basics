@@ -1,12 +1,11 @@
 ##  Assignment 2 - Content plan
-Below is the content plan, where you can find which post types and taxonomies you need, and what content to create. You can add more/different content later, but stick to the plan for now.
+Planning our content is important as we need to prepare Wordpress to handle it. Read through the content plan below and prepare Wordpress by describing post types, taxonomies and media.
 
 ### Post types
-The only content we need to prepare for is the projects. We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if we sometimes in the future would decide to add a blog on the same website, posts would be filled with projects. And we want to keep different content separated.
-
-You need to create a custom post type called *project*, and two new taxonomies to keep them ordered.
+The only custom post type you need in the theme is for the createive content. We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
 
 **Post type: Project**
+Your creative content will be stored as posts with the custom post type *project*.
 
 | Option | Value |
 |---|---|
@@ -19,7 +18,10 @@ You need to create a custom post type called *project*, and two new taxonomies t
 
 ---
 
-**Custom taxonomies**
+**Taxonomies**
+The projects are categorized by type. The terms can be something like "Photo", "Illustration", "Website". A project will most of the times have only one term.
+
+Other information about the project, like applications used or specific technologies or methods will use another taxonomy.
 
 #### Taxonomy: Project type
 | Option | Value |
@@ -30,6 +32,7 @@ You need to create a custom post type called *project*, and two new taxonomies t
 | label | 'Project types' |
 
 #### Taxonomy: Project skill
+
 | Option | Value |
 |---|---|
 | name | 'project_skill' |
