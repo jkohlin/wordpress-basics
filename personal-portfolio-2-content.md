@@ -37,13 +37,18 @@ You need to create a custom post type called *project*, and two new taxonomies t
 | hierarchial | false |
 | label | 'Project skillz' |
 
-#### Media sizes
+---
+
+#### Media
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
+**Media sizes**
 | Name | Size | Crop |
 |---|---|--|
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
+
+---
 
 #### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
