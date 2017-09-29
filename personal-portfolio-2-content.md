@@ -6,8 +6,8 @@ The only content we need to prepare for is the projects. We could use the defaul
 
 You need to create a custom post type called *project*, and two new taxonomies to keep them ordered.
 
-Post type: Project
-====
+**Post type: Project**
+
 | Option | Value |
 |---|---|
 | hierarchial | false |
@@ -17,11 +17,11 @@ Post type: Project
 | taxonomies | 'project_skill', 'project_type' |
 | menu_icon | 'dashicons-portfolio' |
 
-### Custom taxonomies
-Projects will be categorized by two taxonomies: type and skill.
+---
 
-Taxonomy: Project type
-====
+**Custom taxonomies**
+
+#### Taxonomy: Project type
 | Option | Value |
 |---|---|
 | name | 'project_type' |
@@ -29,8 +29,7 @@ Taxonomy: Project type
 | hierarchial | true |
 | label | 'Project types' |
 
-Taxonomy: Project skill
-====
+#### Taxonomy: Project skill
 | Option | Value |
 |---|---|
 | name | 'project_skill' |
@@ -38,8 +37,7 @@ Taxonomy: Project skill
 | hierarchial | false |
 | label | 'Project skillz' |
 
-Media sizes
-====
+#### Media sizes
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
 | Name | Size | Crop |
@@ -50,15 +48,13 @@ A *project* post can hold one image each, which should be stored as the the feat
 #### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
 
-Pages
-====
+#### Pages
 | Page title | Template | Content |
 |---|---|---|
 | Work | portfolio.php | List projects |
 | About | page.php | Featured image and page content |
 
-Projects
-====
+#### Projects
 | Project title | Template | Content |
 |---|---|---|
 | My first project | single-project.php | Dummy text content and featured image |
