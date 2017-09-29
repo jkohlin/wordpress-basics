@@ -12,8 +12,27 @@ So you need to create a custom post type called *project*, and two new taxonomie
 | public | true |
 | hierarchial | false |
 | supports | 'thumbnail', 'title', 'editor,author' |
-| taxonomies | 'skill', 'project_type' |
+| taxonomies | 'project_skill', 'project_type' |
 | menu_icon | 'dashicons-portfolio' |
+
+### Custom taxonomies
+Projects will be categorized by two taxonomies: type and skill.
+
+**Taxonomy: Project type**
+| Option | Value |
+|---|---|
+| name | 'project_type' |
+| object_type | 'project' |
+| hierarchial | true |
+| label | 'Project types' |
+
+**Taxonomy: Project skill**
+| Option | Value |
+|---|---|
+| name | 'project_skill' |
+| object_type | 'project' |
+| hierarchial | false |
+| label | 'Project skillz' |
 
 ### Media sizes
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
@@ -22,7 +41,6 @@ A *project* post can hold one image each, which should be stored as the the feat
 |---|---|--|
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
-
 
 ### Tasks
 1. Register all required post types and taxonomies from the content plan.
