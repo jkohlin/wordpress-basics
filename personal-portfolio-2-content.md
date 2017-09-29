@@ -43,6 +43,7 @@ You need to create a custom post type called *project*, and two new taxonomies t
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
 **Media sizes**
+
 | Name | Size | Crop |
 |---|---|--|
 | grid_thumbnail | 300x300 | true |
