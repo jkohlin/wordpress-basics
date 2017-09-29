@@ -3,7 +3,11 @@ Begin by preparing your theme for development and creating the required files.
 
 * **index.php**
   ```
-  <?php echo 'Silence is golden.'; ?>
+   <?php 
+
+   echo 'Silence is golden.'; 
+
+   ?>
   ```
 
 * **functions.php**
