@@ -2,22 +2,22 @@
 Begin by preparing your theme for development and creating the required files.
 
 * **index.php**
-  ```
-   <?php 
+```
+<?php 
 
-   echo 'Silence is golden.'; 
+echo 'Silence is golden.'; 
 
-   ?>
-  ```
+?>
+```
 
 * **functions.php**
-  ```
-   <?php 
+```
+ <?php 
 
-   echo 'Speech is silver. '; 
+ echo 'Speech is silver. '; 
 
-   ?>
-  ```
+ ?>
+```
 
 * **style.css**
 ```css
