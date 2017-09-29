@@ -1,7 +1,7 @@
 ## Assignment 1 - Theme setup
 Begin by preparing your theme for development and creating the required files.
 
-* **index.php**
+`index.php`:
 ```
 <?php 
 
@@ -10,7 +10,7 @@ echo 'Silence is golden.';
 ?>
 ```
 
-* **functions.php**
+`functions.php`:
 ```
  <?php 
 
@@ -19,7 +19,7 @@ echo 'Silence is golden.';
  ?>
 ```
 
-* **style.css**
+`style.css`:
 ```css
     /*
     Theme Name: Portfolio theme
