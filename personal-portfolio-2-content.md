@@ -16,10 +16,13 @@ So you need to create a custom post type called *project*, and two new taxonomie
 | menu_icon | 'dashicons-portfolio' |
 
 ### Media sizes
-A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed:
+A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
-  * 300x300 (hard crop) `grid_thumbnail` - Used in the portfolio grid.
-  * 660x400 (soft resize) `single_large` - Used in page and project view.
+| Name | Size | Crop |
+|---|---|--|
+| grid_thumbnail | 300x300 | true |
+| single_large | 660x400 | false |
+
 
 ### Tasks
 1. Register all required post types and taxonomies from the content plan.
