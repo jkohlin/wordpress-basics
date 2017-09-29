@@ -2,7 +2,7 @@
 Planning our content is important as we need to prepare Wordpress to handle it. Read through the content plan below and prepare Wordpress by describing post types, taxonomies and media.
 
 ### Post types
-The only custom post type you need in the theme is for the createive content. We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
+The only custom post type you need in the theme is for the creative content. We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
 
 **Post type: Project**
 Your creative content will be stored as posts with the custom post type *project*.
