@@ -10,10 +10,6 @@ Begin by preparing your theme for development and creating the required files.
   ```
    <?php 
 
-   //Theme support
-   add_theme_support( 'post-thumbnails' );
-   add_theme_support( ‘menus’ );
-
    echo 'Speech is silver. '; 
 
    ?>
