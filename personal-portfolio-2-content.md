@@ -44,9 +44,24 @@ A *project* post can hold one image each, which should be stored as the the feat
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
 
+### Theme configuration
+`add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
+
+### Pages
+| Page title | Template | Content |
+|---|---|---|
+| Work | portfolio.php | List projects |
+| About | page.php | Featured image and page content |
+
+### Projects
+| Project title | Template | Content |
+|---|---|---|
+| My first project | single-project.php | Dummy text content and featured image |
+*Add about 10 project posts with different content and images*
+
 ### Tasks
 1. Register all required post types and taxonomies from the content plan.
-1. Define the required image sizes, **and activate post-thumbnails in your theme**.
+1. Define the required image sizes.
 2. Create and publish all posts via admin dashboard.
 
 **Push your theme to the remote repository.**
