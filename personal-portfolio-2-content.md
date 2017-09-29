@@ -1,11 +1,13 @@
 ##  Assignment 2 - Content plan
 Below is the content plan, where you can find which post types and taxonomies you need, and what content to create. You can add more/different content later, but stick to the plan for now.
 
+### Post types
 The only content we need to prepare for is the projects. We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if we sometimes in the future would decide to add a blog on the same website, posts would be filled with projects. And we want to keep different content separated.
 
-So you need to create a custom post type called *project*, and two new taxonomies to keep them ordered.
+You need to create a custom post type called *project*, and two new taxonomies to keep them ordered.
 
-### Post type: Project
+Post type: Project
+====
 | Option | Value |
 |---|---|
 | hierarchial | false |
@@ -18,8 +20,8 @@ So you need to create a custom post type called *project*, and two new taxonomie
 ### Custom taxonomies
 Projects will be categorized by two taxonomies: type and skill.
 
-**Taxonomy: Project type**
-
+Taxonomy: Project type
+====
 | Option | Value |
 |---|---|
 | name | 'project_type' |
@@ -27,8 +29,8 @@ Projects will be categorized by two taxonomies: type and skill.
 | hierarchial | true |
 | label | 'Project types' |
 
-**Taxonomy: Project skill**
-
+Taxonomy: Project skill
+====
 | Option | Value |
 |---|---|
 | name | 'project_skill' |
@@ -36,7 +38,8 @@ Projects will be categorized by two taxonomies: type and skill.
 | hierarchial | false |
 | label | 'Project skillz' |
 
-### Media sizes
+Media sizes
+====
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
 | Name | Size | Crop |
@@ -44,16 +47,18 @@ A *project* post can hold one image each, which should be stored as the the feat
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
 
-### Theme configuration
+#### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
 
-### Pages
+Pages
+====
 | Page title | Template | Content |
 |---|---|---|
 | Work | portfolio.php | List projects |
 | About | page.php | Featured image and page content |
 
-### Projects
+Projects
+====
 | Project title | Template | Content |
 |---|---|---|
 | My first project | single-project.php | Dummy text content and featured image |
