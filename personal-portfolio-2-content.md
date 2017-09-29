@@ -54,21 +54,18 @@ A *project* post can hold one image each, which should be stored as the the feat
 #### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
 
-#### Pages
-| Page title | Template | Content |
-|---|---|---|
-| Work | portfolio.php | List projects |
-| About | page.php | Featured image and page content |
+### Adding content
+Create the two pages and use the default page template (index.php) for now.
 
-#### Projects
-| Project title | Template | Content |
-|---|---|---|
-| My first project | single-project.php | Dummy text content and featured image |
-*Add about 10 project posts with different content and images*
+| Page title | Template |
+|---|---|
+| Work | Default |
+| About | Default |
+
+For the projects you can add material from your previous portfolio, or add some example projetcs just to see something in the templates. You can remove these later.
 
 ### Tasks
-1. Register all required post types and taxonomies from the content plan.
-1. Define the required image sizes.
+1. Prepare Wordpress by adding post types, taxonomies and configurations.
 2. Create and publish all posts via admin dashboard.
 
 **Push your theme to the remote repository.**
