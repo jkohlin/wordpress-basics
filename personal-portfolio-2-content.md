@@ -19,6 +19,7 @@ So you need to create a custom post type called *project*, and two new taxonomie
 Projects will be categorized by two taxonomies: type and skill.
 
 **Taxonomy: Project type**
+
 | Option | Value |
 |---|---|
 | name | 'project_type' |
@@ -27,6 +28,7 @@ Projects will be categorized by two taxonomies: type and skill.
 | label | 'Project types' |
 
 **Taxonomy: Project skill**
+
 | Option | Value |
 |---|---|
 | name | 'project_skill' |
