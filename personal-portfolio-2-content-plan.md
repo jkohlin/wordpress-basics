@@ -65,6 +65,7 @@ Some features are disabled by default, so you need to activate them via the them
 Now when Wordpress knows about our content's structure, we can start publishing posts.
 
 #### Pages
+
 | Page title | Template | 
 |---|---|
 | Work (homepage) | Default |
