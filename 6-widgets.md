@@ -33,6 +33,6 @@ add_action( 'widgets_init', 'my_widgets_init' );
 
 ```
 <ul id="sidebar">
-		<?php dynamic_sidebar( 'header-right-sidebar' ); ?>
+    <?php dynamic_sidebar( 'header-right-sidebar' ); ?>
 </ul>
 ```
