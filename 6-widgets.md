@@ -8,6 +8,12 @@ The main benefit of widgets is that they let us add content and functionality no
 
 A common widget is the *Search field*, which in the admin area let's the editor or admin choose the title and the button text of the search form. This widget is often applied to widget areas in header.php, which will be included by all templates.
 
+### Editor workflow
+1. In admin dashboard, navigate to Appearence->Widgets (the theme needs at least one registered sidebar for this section to be shown)
+2. Drag any widget from available widgets into the sidebar of choice.
+3. Edit options/content in the widget and save.
+
+
 ### Developer workflow
 1. Register widget areas (sidebars) in `functions.php:
 		
