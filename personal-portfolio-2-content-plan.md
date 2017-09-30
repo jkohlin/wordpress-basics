@@ -16,11 +16,9 @@ The only custom post type you need in the theme is for the creative content.
 | menu_icon | 'dashicons-portfolio' |
 
 ### Taxonomies
-The projects are categorized by type. The terms can be something like "Photo", "Illustration", "Website". A project will most of the times have only one term.
+Your theme must have the following taxonimies registered:
 
-Other information about the project, like applications used or specific technologies or methods will use another taxonomy.
-
-#### Taxonomy: Project type
+#### Project type
 
 | Option | Value |
 |---|---|
@@ -29,7 +27,9 @@ Other information about the project, like applications used or specific technolo
 | hierarchial | true |
 | label | 'Project types' |
 
-#### Taxonomy: Project skill
+*Example terms: 'Photo', 'Painting', 'Website'*
+
+#### Project skill
 
 | Option | Value |
 |---|---|
@@ -37,6 +37,9 @@ Other information about the project, like applications used or specific technolo
 | object_type | 'project' |
 | hierarchial | false |
 | label | 'Project skillz' |
+
+*Example terms: 'Sketch', 'Html', 'Javascript'*
+
 
 > We could use the default post type *post* for the projects, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
 
@@ -50,11 +53,16 @@ A *project* post can hold one image each, which should be stored as the the post
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
 
-### Widget areas
-Register a widget area to display secondary content on single pages. Call it `page-sidebar`.
+### Widget areas (sidebars)
+Your theme must have the following widget areas registered:
+
+| Id  |  Name  | Location |
+|---|---|
+| page-sidebar | Page Sidebar | Single pages |
+| site-header | Site header | Site header |
 
 ### Theme configuration
-Your theme should have support for the following features:
+Your theme must have support for the following features:
 
 | Feature | Options |
 |---|---|
