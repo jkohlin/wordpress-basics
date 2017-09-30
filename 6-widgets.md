@@ -35,7 +35,7 @@ add_action( 'widgets_init', 'my_widgets_init' );
 ?>
 ```
 
-2. Output the widget area (sidebar) in template:
+2. Output the widget area (sidebar) in the template code:
 
 ```
 <ul id="sidebar">
