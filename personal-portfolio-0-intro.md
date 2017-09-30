@@ -1,7 +1,10 @@
 # Project - Personal portfolio theme
 You are going to build a new Wordpress theme for a personal portfolio, to present some kind of creative work along with contact and bio. The theme will be built from scratch, and you will add only the absolute required components. The result will be a very lightweight and simple theme which you can use as it is, or extend into something more complex.
 
-In the assignment only the theme folder will be version controlled with Git.
+### The website plan
+Take a look at the premade wireframes describing the website: [Wireframe sketches](documents/portfolio-theme-wireframes.pdf)
+
+> Note: In the assignment only the theme folder must be version controlled with Git.
 
 ### Prerequisites
 * A working local Wordpress installation
