@@ -21,6 +21,7 @@ The projects are categorized by type. The terms can be something like "Photo", "
 Other information about the project, like applications used or specific technologies or methods will use another taxonomy.
 
 #### Taxonomy: Project type
+
 | Option | Value |
 |---|---|
 | name | 'project_type' |
