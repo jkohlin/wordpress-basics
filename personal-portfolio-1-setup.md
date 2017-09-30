@@ -1,4 +1,11 @@
 ## Assignment 1 - Theme setup
+For a Worpdress theme to be recognized and activated via Wordpress there are a couple of files that needs to exists. These are:
+
+* **style.css** - Used for defining the theme name and developer/author (no css rules in here).
+* **functions.php** - The file where we keep code to extend Wordpress defaults.
+* **index.php** - A default template to render content. (can be empty)
+* **screenshot.png** - A screenshot to represent the theme's appearence in Wordpress dashboard.
+
 Begin by preparing your theme for development and creating the required files.
 
 `index.php`:
