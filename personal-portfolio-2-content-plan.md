@@ -50,6 +50,8 @@ A *project* post can hold one image each, which should be stored as the the post
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
 
+### Widget areas
+Register a widget area to display secondary content on single pages. Call it `page-sidebar`.
 
 ### Theme configuration
 Some features are disabled by default, so you need to activate them via the theme's `functions.php`.
@@ -59,8 +61,10 @@ Some features are disabled by default, so you need to activate them via the them
 `add_theme_support( 'post-formats');`
 
 
-### Pages
+### Adding content
+Now when Wordpress knows about our content's structure, we can start publishing posts.
 
+#### Pages
 | Page title | Template | 
 |---|---|
 | Work (homepage) | Default |
@@ -68,12 +72,22 @@ Some features are disabled by default, so you need to activate them via the them
 
 > You can edit the templates later when you have them.
 
-### Projects
+#### Projects
 For the project content you can add real material, or publsih some example projetc posts just to see something in the templates. 
 
+#### Site details
+Add a couple of lines as the *site description* in *Settins->General*.
+
+#### Custom menu
+Create your main navigation as a custom menu in *Appearance->Menus*.
+
+#### Widgets
+Add a category-widgets to list all your *project_skills* terms to your page-sidebar via *Appearance->Widgets*.
+
 ### Tasks
-1. Prepare Wordpress by adding post types, taxonomies and configurations.
-2. Create and publish all posts via admin dashboard.
+1. Prepare Wordpress by adding post types, taxonomies and media sizes. 
+2. Register widget areas and theme configurations.
+3. Create and publish all posts via admin dashboard.
 
 **Push your theme to the remote repository.**
 
