@@ -7,7 +7,7 @@ Look at the wireframe sketches explains the website's different views, and how c
 A good start is to define and create the common parts of the template. By doing so we can build all templates we need effectively and without repeating any code. Wordpress' template parts is perfect for this. It's important to use general naming describing the parts' appearence and behavior, instead of the exact context we might use them for now.
 
 #### Header navigation
-<img src="images/header.png" width="400" class="templatepart">
+<img src="images/header.png" class="templatepart">
 `partials/navhead.php`
 A common area used in all views with the logo, description and menu.
 
@@ -16,7 +16,7 @@ A common area used in all views with the logo, description and menu.
 * Menu - Should be showing a specific **custom menu**.
 
 #### Postgrid
-<img src="images/postgrid.png" width="300" class="templatepart">
+<img src="images/postgrid.png" class="templatepart">
 `partials/postgrid.php`
 A collection of posts listed in a grid with a taxonomy filter.
 
@@ -24,12 +24,12 @@ A collection of posts listed in a grid with a taxonomy filter.
 * Post list - Looping all posts within a specific post type and the current querystring value.
 
 #### Breadcrumbs
-<img src="images/breadcrumbs.png" width="100" class="templatepart">
+<img src="images/breadcrumbs.png" class="templatepart">
 `partials/breadcrumbs.php`
 Showing the current post's location in hierarchy.
 
 #### Text content
-<img src="images/textcontent.png" width="300" class="templatepart">
+<img src="images/textcontent.png" class="templatepart">
 `partials/content.php`
 Presenting the content from a single post with title, text and taxonomy terms.
 
