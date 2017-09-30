@@ -54,20 +54,20 @@ A *project* post can hold one image each, which should be stored as the the post
 Register a widget area to display secondary content on single pages. Call it `page-sidebar`.
 
 ### Theme configuration
-Some features are disabled by default, so you need to activate them via the theme's `functions.php`.
+Your theme should have support for the following features:
 
-`add_theme_support( 'post-thumbnails');`
+| Feature | Options |
+|---|---|
+| post-thumbnails | defaults |
+| post-formats | defaults |
 
-`add_theme_support( 'post-formats');`
-
-
-### Adding content
+### Populating content
 Now when Wordpress knows about our content's structure, we can start publishing posts.
 
 #### Pages
 
 | Page title | Template | 
-|---|---|
+| Option |
 | Work (homepage) | Default |
 | About | Default |
 
@@ -77,10 +77,10 @@ Now when Wordpress knows about our content's structure, we can start publishing 
 For the project content you can add your current creative material, or publish a couple of example projects, just to see something in the templates. 
 
 #### Site details
-Add a couple of lines as the *site description* in *Settins->General*.
+Add your name as *site title* and couple of descriptive lines as the *site description* in *Settins->General*.
 
 #### Custom menu
-Create your main navigation as a custom menu in *Appearance->Menus*.
+Build a main navigation as a custom menu from *Appearance->Menus*.
 
 #### Widgets
 Add a category-widgets to list all your *project_skills* terms to your page-sidebar via *Appearance->Widgets*.
