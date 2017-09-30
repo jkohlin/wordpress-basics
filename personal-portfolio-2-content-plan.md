@@ -69,6 +69,8 @@ Your theme must have support for the following features:
 | post-thumbnails | defaults |
 | post-formats | defaults |
 
+---
+
 ### Populating content
 Now when Wordpress knows about our content's structure, we can start publishing posts.
 
