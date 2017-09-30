@@ -3,8 +3,9 @@
 
 @import "{{ site.theme }}";
 
-.current{
-  font-weight:bold;
+a:hover{
+  font-weight:normal;
+  text-decoration:underline;
 }
 
 nav {
