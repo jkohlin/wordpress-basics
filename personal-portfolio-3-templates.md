@@ -32,7 +32,7 @@ Presenting the content from a single post with image, title and content.
 * **Title** - The current post's title.
 * **Content** - The current post's content.
 
-> Tip: Use a conditional statement to check if the template part us beeing used with a single project or not. Can be useful when listing different collection of the taxonomy terms.
+> Note: Use a conditional statement to check if the current post (or page) has any connected terms to show.
 
 ### Assignment handin
 Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template should begin with `get_header()` and end with `get_footer()`;
