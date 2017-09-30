@@ -1,4 +1,4 @@
-## Theme
+## Themes
 
 We use Wordpress themes to extend Wordpress default behavior, and define how the content will be presented on the frontend. A Wordpress installation can have many themes, but only one can be active. An admin can easily switch between themes and thereby the website's appearence.
 
