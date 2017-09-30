@@ -71,7 +71,7 @@ Now when Wordpress knows about our content's structure, we can start publishing 
 | Work (homepage) | Default |
 | About | Default |
 
-> You can edit the templates later when you have them.
+> You can change templates later when you have them.
 
 #### Projects
 For the project content you can add real material, or publsih some example projetc posts just to see something in the templates. 
