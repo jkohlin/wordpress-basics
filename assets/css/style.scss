@@ -6,8 +6,14 @@
 .current{
   font-weight:bold;
 }
-a:visited{
-  color:red;
+
+nav {
+  a{
+    color:black;
+  }
+  a:visited{
+  color:gray;
+  }
 }
 
 img{
