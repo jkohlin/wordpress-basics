@@ -20,7 +20,7 @@ A common widget is the *Search field*, which in the admin area let's the editor 
 function my_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => 'Headerright sidebar',
+		'name'          => 'Header Right Sidebar',
 		'id'            => 'header-right-sidebar'
 	) );
 
