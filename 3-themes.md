@@ -2,6 +2,13 @@
 
 We use Wordpress themes to extend Wordpress default behavior, and define how the content will be presented on the frontend. A Wordpress installation can have many themes, but only one can be active. An admin can easily switch between themes and thereby the website's appearence.
 
+### Theme components
+Each theme holds templates, stylesheets and functions. They are encapsulated into a theme folder which is placed in the Wordpress installation within a folder called `wp-content/themes/`. 
+
+**Templates**: File describing how to render content on the frontend website.
+**Functions**: PHP-code to extend Wordpress default behavior.
+**Assets**: Stylesheets, fonts, scripts and images to control the visual appearance on the frontend.
+
 ### Downloading themes
 There is a countless number of themes available for free of charge, which we can download and customized using well prepared dashboard settings. This makes it easy for anyone to create a Wordpress website and get the desired appearence and feel.
 
