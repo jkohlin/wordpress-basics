@@ -9,7 +9,7 @@ In the assignment only the theme folder will be version controlled with Git.
 * A Github account
 
 ### Project plan
-The project is divided into three parts:
+The project is divided into three assignments:
 
 1. **Theme setup** - Creating the required files for theme activation.
 2. **Content plan** - Preparing Wordpress backend and adding the content.
