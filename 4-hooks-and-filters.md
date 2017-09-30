@@ -1,4 +1,4 @@
-## Plugin API
+## Hooks and filters
 
 Wordpress comes with a Plugin API which enables developers to extend Wordpress' default behavior. Central in this API is something called *hooks*. Developers can use them to *hook* new code into existing methods, without touching the original code. The Wordpress hook comes in two versions: *action hook* and *filter hook*. They work much like events which we can listen for and do something with when fired.
 
