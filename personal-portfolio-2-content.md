@@ -15,10 +15,7 @@ The only custom post type you need in the theme is for the creative content.
 | taxonomies | 'project_skill', 'project_type' |
 | menu_icon | 'dashicons-portfolio' |
 
-> We could use the default post type *post* for them, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
----
-
-**Taxonomies**
+### Taxonomies
 The projects are categorized by type. The terms can be something like "Photo", "Illustration", "Website". A project will most of the times have only one term.
 
 Other information about the project, like applications used or specific technologies or methods will use another taxonomy.
@@ -40,9 +37,9 @@ Other information about the project, like applications used or specific technolo
 | hierarchial | false |
 | label | 'Project skillz' |
 
----
+> You could use the default post type *post* for the projects, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
 
-#### Media
+### Media
 A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
 **Media sizes**
@@ -52,12 +49,11 @@ A *project* post can hold one image each, which should be stored as the the feat
 | grid_thumbnail | 300x300 | true |
 | single_large | 660x400 | false |
 
----
 
-#### Theme configuration
+### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
 
-### Adding content
+### Adding the content
 Create the two pages and use the default page template (index.php) for now.
 
 | Page title | Template |
