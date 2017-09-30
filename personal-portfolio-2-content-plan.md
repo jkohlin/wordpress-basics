@@ -57,7 +57,7 @@ A *project* post can hold one image each, which should be stored as the the post
 Your theme must have the following widget areas registered:
 
 | Id  |  Name  | Location |
-|---|---|
+|---|---|--|
 | page-sidebar | Page Sidebar | Single pages |
 | site-header | Site header | Site header |
 
