@@ -16,7 +16,7 @@ A common area used in all views with the logo, description and menu.
 * Menu - Should be showing a specific **custom menu**.
 
 #### Postgrid
-[Header](/images/HEADER.png)
+[Header](/images/PortfolioGrid.png)
 `partials/postgrid.php`
 A collection of posts listed in a grid with a taxonomy filter.
 
