@@ -16,6 +16,14 @@ Github Classroom will be used as your remote Git repository, where your teacher 
 https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef3b36 
 2. Clone the Github repository into your local themes folder (make sure you pick the SSH clone URL).
 
+### Project plan
+The project is divided into three parts:
+
+1. **Theme setup** - Creating the required files for theme activation.
+2. **Structure & content** - Preparing Wordpress backend for our content.
+3. **Templates** - Presenting our content to the frontend.
+4. **Style and scriptsp** - Giving life and color to the frontend website.
+
 ### Slack channel
 You can connect to our Slack channel if using your @ju.se email address. https://frkst.slack.com/messages/G6U1QN5GT
 
