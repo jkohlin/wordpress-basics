@@ -81,10 +81,10 @@ Now when Wordpress knows about our content's structure, we can start to adding c
 
 ### Projects
 
-| Title | Content | 
-|---|---|
-| Project title | Describe the project |
-| Project title | Describe the project |
+| Title | Content | Thumbnail 
+|---|---|---|
+| Project title | Describe the project | The project media |
+| Project title | Describe the project | The project media |
 | ... | ... |
 
 > You can add real project content or a couple of example posts. 
