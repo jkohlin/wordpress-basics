@@ -1,5 +1,8 @@
 ##  Assignment 2 - Content
-Read through the pre-made content plan below and prepare Wordpress' backend by defining post types, taxonomies and media sizes.
+Our content has been planned in beforehand by a UX designer who also provided us with visual sketches of the views and their layout.
+
+### Wireframes
+Download and study the wireframes to understand what content to preapre for: [Wireframe sketches](documents/portfolio-theme-wireframes.pdf)
 
 ### Post types
 Create the following custom post types:
