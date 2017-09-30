@@ -52,6 +52,7 @@ A *project* post can hold one image each, which should be stored as the the post
 
 ### Theme configuration
 `add_theme_support( 'post-thumbnails', array( 'project', 'page' ) );`
+`add_theme_support( 'post-formats'`
 
 ### Adding the content
 Create the two pages and use the default page template (index.php) for now.
