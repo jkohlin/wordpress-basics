@@ -20,9 +20,8 @@ https://classroom.github.com/assignment-invitations/ba4e0df3e4a0ef72dbd393bc72ef
 The project is divided into three parts:
 
 1. **Theme setup** - Creating the required files for theme activation.
-2. **Structure & content** - Preparing Wordpress backend for our content.
-3. **Templates** - Presenting our content to the frontend.
-4. **Style and scripts** - Giving life and color to the frontend website.
+2. **Content plan** - Preparing Wordpress backend and adding the content.
+3. **Templates** - Presenting the content to the frontend.
 
 ### Slack channel
 You can connect to our Slack channel if using your @ju.se email address. https://frkst.slack.com/messages/G6U1QN5GT
