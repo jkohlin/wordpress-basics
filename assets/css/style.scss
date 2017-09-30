@@ -11,12 +11,11 @@ a:hover{
 nav {
   
   a.current{
-     text-decoration: line-through !important; 
       text-decoration:underline;
   }
 
   a:visited{
-  color:gray;
+    color:gray;
     text-decoration: line-through !important; 
   }
 }
