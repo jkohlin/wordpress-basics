@@ -6,7 +6,7 @@ For a Worpdress theme to be recognized and activated via Wordpress there are a c
 * **index.php** - A default template to render content. (can be empty)
 * **screenshot.png** - A screenshot to represent the theme's appearence in Wordpress dashboard.
 
-Begin by preparing your theme for development and creating the required files.
+Enter some example content in the files:
 
 `index.php`:
 ```
