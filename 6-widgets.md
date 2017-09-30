@@ -30,8 +30,9 @@ add_action( 'widgets_init', 'my_widgets_init' );
 ```
 
 2. Output the widget area (sidebar) in template:
-		
-        <ul id="sidebar">
-			<?php dynamic_sidebar( 'header-right-sidebar' ); ?>
-        </ul>
-    
+
+```
+<ul id="sidebar">
+		<?php dynamic_sidebar( 'header-right-sidebar' ); ?>
+</ul>
+```
