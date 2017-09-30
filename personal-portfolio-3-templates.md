@@ -23,11 +23,6 @@ A collection of posts listed in a grid with a taxonomy filter.
 * Filter - Listing a taxonomy's terms to filter the grid items with querystring parameters.
 * Post list - Looping all posts within a specific post type and the current querystring value.
 
-#### Breadcrumbs (partials/breadcrumbs.php)
-![Breadcrumbs](images/breadcrumbs.png)
-
-Showing the current post's location in hierarchy.
-
 #### Text content (partials/content.php)
 ![Text Content](images/textcontent.png)
 
