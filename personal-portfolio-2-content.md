@@ -40,7 +40,7 @@ Other information about the project, like applications used or specific technolo
 > We could use the default post type *post* for the projects, and categorize them using default taxonomies *category* and *tag*. But then if you sometime in the future would want a blog on the website, posts would be filled with projects and the default taxonomies used for other things. So we want to create something new to keep our project content separated.
 
 ### Media
-A *project* post can hold one image each, which should be stored as the the featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
+A *project* post can hold one image each, which should be stored as the the post's featured image. There are two locations which were the image media will be outputed, in the grid and on single posts/pages.
 
 **Media sizes**
 
