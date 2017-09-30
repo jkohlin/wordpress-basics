@@ -1,16 +1,18 @@
-## Theme types
+## Theme
 
-A popular aproach when building themes is to make changes in an already existing theme, to get the prefered appearance and functionality. If the theme's licence aproves, we can do this by simply editing directly in the theme files. We can of course also extend the theme by adding more code or templetes to it.
+We use Wordpress themes to extend Wordpress default behavior, and define how the content will be presented on the frontend. A Wordpress installation can have many themes, but only one can be active. An admin can easily switch between themes and thereby the website's appearence.
 
-Most published themes will sooner or later have updates available, which are simple to make via the admin dashboard. However, if any changes were made directly in the theme files, these would become overwritten when performing the update, leaving us with the misery of undone work.
+A popular aproach when having self-hosted websites is to download and use an already created theme, where options for customization are often included via the admin dashboard.
+
+When building new themes, we have to pick a development strategy. Should we build it from scratch, or base it on another theme?
 
 ### Child theme
-Wordpress has solved this by introducing *child themes*, which enables us to make all changes as a separate theme, without touching the main theme (parent theme). Updates can vice-versa be made on the main theme, without touching our changes in the child theme. While this aproach is preferable and more safe, a complete understanding of the main theme is prefered to extend it effectively. A child theme is also depending on the main theme, and can never exist on it's own.
+Wordpress enables us to make changes to a theme, without touching the theme's files. It's done by creating something called child theme, which inherits all theme code from another (parent) theme. The child theme can then include ony the parts we want to override and extend. If the parent theme is released in new versions, an update would then not affect the custom code in the child theme.
 
 ### Starter themes
-When we have a lot of custom styles and functionality, we might be better of building ourself a brand new theme. This involves creating all files and folders, adding each line of code ourself. Fair enough - if we were doing this only once. But when we create a lot of themes, we find ourself doing much of the work over and over again. To avoid these repetitive tasks, we need some kind of starter kit. These are called *starter themes* and includes the most basic templates, functions and styles for us to build further on.
+Starter themes are standalone themes witch basic templates and functionality ment to be continued on by a developer. When building many themes, this can be a good starting point to avoid repetitive tasks.
 
-We can create our own starter theme, suiting our exact needs. Or we can pick some of the open source starter themes available, which are well tested, updated and a robust starting point for any new theme project. One of the most popular starter themes is [Underscores](http://underscores.me/ "Underscores project"). Go check it out!
+We can create our own starter themes, suiting our exact needs. Or we can pick some of the open source starter themes available, which are well tested, updated and a robust starting point for any new theme project. One of the most popular starter themes is [Underscores](http://underscores.me/ "Underscores project").
 
 ### Building from scratch
-The previous development types will always contain a little more code than you really need for a specific theme. They are methods for development speed. By building a theme from scratch we get only the parts we really need for the website and a better understanding of the theme. This is the method we will be using when building our new portfolio theme.
+By building a new theme from scratch we get only the parts we really need for the website and a better understanding of the theme. This is the method we will be using in this course.
