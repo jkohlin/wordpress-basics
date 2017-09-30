@@ -114,7 +114,7 @@ Add the following widgets:
 ### Assignment handin
 1. Prepare Wordpress by adding post types, taxonomies and media sizes. 
 2. Register widget areas and theme configurations.
-3. Create and publish posts and widgets.
+3. Create and publish posts, menus and widgets.
 
 **Push your theme to the remote repository.**
 
