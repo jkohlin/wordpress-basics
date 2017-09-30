@@ -39,4 +39,4 @@ Create a minimum amount of templates using the template parts above, to match th
 
 **Push your theme to the remote repository.**
 
-> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
+> Tip: If you need help, use Google or Wordpress official Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
