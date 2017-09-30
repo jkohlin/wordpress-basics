@@ -2,6 +2,9 @@
 
 A good start is to define and create the common parts of the template. By doing so we can build all templates we need effectively and without repeating any code. Wordpress' template parts is perfect for this. It's important to use general naming describing the parts' appearence and behavior, instead of the exact context we might use them for now.
 
+### Wireframes
+Download and study the wireframes to understand what content to preapre for: [Wireframe sketches](documents/portfolio-theme-wireframes.pdf)
+
 ### Styling the templates
 Use the theme's style.css to style your template code.
 > Tip: Create classes for each template part.
