@@ -31,6 +31,7 @@ Presenting the content from a single post with image, title and content.
 * **Featured image** - Current post's or page's featured image
 * **Title** - The current post's title.
 * **Content** - The current post's content.
+* **Skills** - The current post's terms from `project_skills`.
 
 > Note: Use a conditional statement to check if the current post (or page) has any connected terms to show.
 
