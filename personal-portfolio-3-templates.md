@@ -12,7 +12,7 @@ A good start is to define and create the common parts of the template. By doing 
 A common area used in all views with the logo, description and menu.
 
 * Logo - Should be linked to the website's **home url** and show the **site title**.
-* Description - Should be linked and show the **site description**.
+* Widget area - With a default text widget with a short description of the website.
 * Menu - Should be showing a specific **custom menu**.
 
 #### Postgrid (partials/postgrid.php)
