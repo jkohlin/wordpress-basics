@@ -2,7 +2,7 @@
 Read through the pre-made content plan below and prepare Wordpress' backend by defining post types, taxonomies and media sizes.
 
 ### Post types
-The only custom post type you need in the theme is for the creative content. 
+Create the following custom post types:
 
 **Post type: Project**
 
@@ -16,7 +16,7 @@ The only custom post type you need in the theme is for the creative content.
 | menu_icon | 'dashicons-portfolio' |
 
 ### Taxonomies
-Your theme must have the following taxonimies registered:
+Create the following custom taxonomies:
 
 #### Project type
 
@@ -90,6 +90,7 @@ Now when Wordpress knows about our content's structure, we can start to adding c
 > You can add real project content or a couple of example posts. 
 
 ### Site settings
+Add the following information to the site's settings:
 
 | Setting | Content | 
 |---|---|
