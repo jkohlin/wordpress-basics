@@ -6,6 +6,9 @@ A good start is to define and create the common parts of the template. By doing 
 Use the theme's style.css to style your template code.
 > Tip: Create classes for each template part.
 
+### Templatecommon code
+Create the following template parts:
+
 #### Site header (partials/sitehead.php)
 ![Header](images/header.png)
 
