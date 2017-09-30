@@ -34,7 +34,7 @@ Presenting the content from a single post with image, title and content.
 
 > Tip: Use a conditional statement to check if the template part us beeing used with a single project or not. Can be useful when listing different collection of the taxonomy terms.
 
-### Result
+### Assignment handin
 Create a minimum amount of templates using the template parts above, to match the content plan and wireframes. Each template should begin with `get_header()` and end with `get_footer()`;
 
 **Push your theme to the remote repository.**
