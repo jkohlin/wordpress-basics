@@ -1,7 +1,7 @@
 ## Assignment 3 - Templates
 Look at the wireframe sketches explains the website's different views, and how content is layed out on them.
 
-[Wireframe sketches](documents/portfolio-theme.pdf)
+[Wireframe sketches](documents/portfolio-theme-wireframes.pdf)
 
 ### Bulding blocks
 A good start is to define and create the common parts of the template. By doing so we can build all templates we need effectively and without repeating any code. Wordpress' template parts is perfect for this. It's important to use general naming describing the parts' appearence and behavior, instead of the exact context we might use them for now.
