@@ -11,26 +11,26 @@ A good start is to define and create the common parts of the template. By doing 
 
 A common area used in all views with the logo, description and menu.
 
-* Logo - Should be linked to the website's **home url** and show the **site title**.
-* Widget area - With a default text widget with a short description of the website.
-* Menu - Should be showing a specific **custom menu**.
+* **Logo** - Should be linked to the website's *home url* and show the *site title*.
+* **Text widget** - Containing a short description of the website.
+* **Menu** - Should be showing a specific *custom menu*.
 
 #### Postgrid (partials/postgrid.php)
 ![Post grid](images/postgrid.png)
 
 A collection of posts listed in a grid with a taxonomy filter.
 
-* Filter - Listing a taxonomy's terms to filter the grid items with querystring parameters.
-* Post list - Looping all posts within a specific post type and the current querystring value.
+* **Filter** - Listing a taxonomy's terms to filter the grid items with querystring parameters.
+* **Post list** - Looping all posts within a specific post type and the current querystring value.
 
 #### Text content (partials/content.php)
 ![Text Content](images/textcontent.png)
 
 Presenting the content from a single post with title, text and taxonomy terms.
 
-* Title - The current post's title.
-* Content - The current post's content.
-* Terms - The terms in a specific taxonomy, connected to the current post or all terms available in a specific taxonomy.
+* **Title** - The current post's title.
+* **Content** - The current post's content.
+* **Terms** - The terms in a specific taxonomy, connected to the current post or all terms available in a specific taxonomy.
 
 > Tip: Use a conditional statement to check if the template part us beeing used with a single project or not. Can be useful when listing different collection of the taxonomy terms.
 
