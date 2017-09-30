@@ -9,6 +9,10 @@ a:hover{
 }
 
 nav {
+  
+  a.current{
+     text-decoration: line-through !important; 
+  }
 
   a:visited{
   color:gray;
