@@ -59,7 +59,6 @@ Your theme must have the following widget areas registered:
 | Id  |  Name  | Location |
 |---|---|--|
 | page-sidebar | Page Sidebar | Single pages |
-| site-header | Site header | Site header |
 
 ### Theme configuration
 Your theme must have support for the following features:
@@ -71,28 +70,46 @@ Your theme must have support for the following features:
 
 
 ## Populating content
-Now when Wordpress knows about our content's structure, we can start publishing posts.
+Now when Wordpress knows about our content's structure, we can start to adding content.
 
 ### Pages
 
-| Page title | Template | 
-|---|---|
-| Work (homepage) | Default |
-| About | Default |
-
-> You can change templates later when you have them.
+| Title  | Content | Thumbnail 
+|---|---|---|
+| Work | *none* | *none* |
+| About | Write something about yourself and add your contact details | A personal photo | 
 
 ### Projects
-For the project content you can add your current creative material, or publish a couple of example projects, just to see something in the templates. 
 
-### Site details
-Add your name as *site title* and couple of descriptive lines as the *site description* in *Settins->General*.
+| Title | Content | 
+|---|---|
+| Project title | Describe the project |
+| Project title | Describe the project |
+| ... | ... |
 
-### Custom menu
-Build a main navigation as a custom menu from *Appearance->Menus*.
+> You can add real project content or a couple of example posts. 
+
+### Site settings
+
+| Setting | Content | 
+|---|---|
+| Site title | Your first and last name |
+| Site description | Describe your website's content |
+| Home page | The page 'Work' |
+
+### Custom menus
+Build the following custom menus:
+
+| Menu name | Location | Items |
+|---|---|---|
+| Page menu | `header-nav` | The two pages 'Work' and 'Home' |
 
 ### Widgets
-Add a category-widgets to list all your *project_skills* terms to your page-sidebar via *Appearance->Widgets*.
+Add the following widgets:
+
+| Widget | Sidebar | Content | 
+|---|---|---|
+| Category widget | Page Sidebar | All terms in `project_skills` taxonomy |
 
 ### Assignment handin
 1. Prepare Wordpress by adding post types, taxonomies and media sizes. 
