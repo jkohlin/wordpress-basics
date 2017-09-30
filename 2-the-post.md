@@ -32,7 +32,7 @@ Is this article published? Or is it still pending, awating approval? This field 
 As all content in Wordpress is a post and stored in this table, we need a way of knowing what kind of content each post holds. 
 
 ### Post Format
-When rendering content we sometimes need to adapt the layuot to fit the specific content. *Post format* is a value which set by the author when creating the content. There are a number of pre-set values available and we are limited to use one of the values to describe our content. The currently available values are:
+When rendering content we sometimes need to adapt the layout to fit the specific content. *Post format* is a value which set by the author when creating the content. There are a number of pre-set values available and we are limited to use one of the values to describe our content. The currently available values are:
 
 aside
 gallery
