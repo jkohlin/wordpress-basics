@@ -69,12 +69,11 @@ Your theme must have support for the following features:
 | post-thumbnails | defaults |
 | post-formats | defaults |
 
----
 
-### Populating content
+## Populating content
 Now when Wordpress knows about our content's structure, we can start publishing posts.
 
-#### Pages
+### Pages
 
 | Page title | Template | 
 | Work (homepage) | Default |
@@ -82,16 +81,16 @@ Now when Wordpress knows about our content's structure, we can start publishing 
 
 > You can change templates later when you have them.
 
-#### Projects
+### Projects
 For the project content you can add your current creative material, or publish a couple of example projects, just to see something in the templates. 
 
-#### Site details
+### Site details
 Add your name as *site title* and couple of descriptive lines as the *site description* in *Settins->General*.
 
-#### Custom menu
+### Custom menu
 Build a main navigation as a custom menu from *Appearance->Menus*.
 
-#### Widgets
+### Widgets
 Add a category-widgets to list all your *project_skills* terms to your page-sidebar via *Appearance->Widgets*.
 
 ### Assignment handin
