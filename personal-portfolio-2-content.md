@@ -58,16 +58,6 @@ Some features are disabled by default, so you need to activate them via the them
 
 `add_theme_support( 'post-formats');`
 
-### Adding the content
-Create the two pages and use the default page template (index.php) for now.
-
-| Page title | Template |
-|---|---|
-| Work | Default |
-| About | Default |
-
-For the projects you can add material from your previous portfolio, or add some example projetcs just to see something in the templates. You can remove these later.
-
 ### Tasks
 1. Prepare Wordpress by adding post types, taxonomies and configurations.
 2. Create and publish all posts via admin dashboard.
