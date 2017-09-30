@@ -60,6 +60,7 @@ Some features are disabled by default, so you need to activate them via the them
 
 
 ### Pages
+
 | Page title | Template | 
 |---|---|
 | Work (homepage) | Default |
