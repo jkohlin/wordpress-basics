@@ -75,7 +75,6 @@ Now when Wordpress knows about our content's structure, we can start publishing 
 #### Pages
 
 | Page title | Template | 
-| Option |
 | Work (homepage) | Default |
 | About | Default |
 
