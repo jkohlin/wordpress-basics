@@ -76,4 +76,4 @@ For the project content you can add real material, or publsih some example proje
 
 **Push your theme to the remote repository.**
 
-> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
+> Tip: If you need help, use Google or Wordpress offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
