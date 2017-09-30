@@ -9,13 +9,29 @@ The main benefit of widgets is that they let us add content and functionality no
 A common widget is the *Search field*, which in the admin area let's the editor or admin choose the title and the button text of the search form. This widget is often applied to widget areas in header.php, which will be included by all templates.
 
 ### Developer workflow
-1. Register a widget area (sidebar) in functions.php:
+1. Register widget areas (sidebars) in `functions.php:
+		
+```
+<?php
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function my_widgets_init() {
 
-		<?php register_sidebar( 'right-sidebar' ); ?>
+	register_sidebar( array(
+		'name'          => 'Headerright sidebar',
+		'id'            => 'header-right-sidebar'
+	) );
+
+}
+add_action( 'widgets_init', 'my_widgets_init' );
+?>
+```
 
 2. Output the widget area (sidebar) in template:
 		
         <ul id="sidebar">
-			<?php dynamic_sidebar( 'right-sidebar' ); ?>
+			<?php dynamic_sidebar( 'header-right-sidebar' ); ?>
         </ul>
     
