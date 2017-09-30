@@ -26,4 +26,4 @@ The project is divided into three parts:
 ### Slack channel
 You can connect to our Slack channel if using your @ju.se email address. https://frkst.slack.com/messages/G6U1QN5GT
 
-> Tip: If you need help, use Google or Wordpress Offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
+> Tip: If you need help, use Google or Wordpress offical Codex: https://codex.wordpress.org/. If stuck please visit the Slack channel and ask for help.
