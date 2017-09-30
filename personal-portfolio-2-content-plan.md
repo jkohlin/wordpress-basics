@@ -1,4 +1,4 @@
-##  Assignment 2 - Content plan
+##  Assignment 2 - Content
 Read through the pre-made content plan below and prepare Wordpress' backend by defining post types, taxonomies and media sizes.
 
 ### Post types
