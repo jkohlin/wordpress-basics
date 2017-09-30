@@ -58,6 +58,18 @@ Some features are disabled by default, so you need to activate them via the them
 
 `add_theme_support( 'post-formats');`
 
+
+### Pages
+| Page title | Template | 
+|---|---|
+| Work (homepage) | Default |
+| About | Default |
+
+> You can edit the templates later when you have them.
+
+### Projects
+For the project content you can add real material, or publsih some example projetc posts just to see something in the templates. 
+
 ### Tasks
 1. Prepare Wordpress by adding post types, taxonomies and configurations.
 2. Create and publish all posts via admin dashboard.
