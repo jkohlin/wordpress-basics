@@ -74,7 +74,7 @@ Now when Wordpress knows about our content's structure, we can start publishing 
 > You can change templates later when you have them.
 
 #### Projects
-For the project content you can add real material, or publsih some example projetc posts just to see something in the templates. 
+For the project content you can add your current creative material, or publish a couple of example projects, just to see something in the templates. 
 
 #### Site details
 Add a couple of lines as the *site description* in *Settins->General*.
