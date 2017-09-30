@@ -26,11 +26,11 @@ A collection of posts listed in a grid with a taxonomy filter.
 #### Text content (partials/content.php)
 ![Text Content](images/textcontent.png)
 
-Presenting the content from a single post with title, text and taxonomy terms.
+Presenting the content from a single post with image, title and content.
 
+* **Featured image** - Current post's or page's featured image
 * **Title** - The current post's title.
 * **Content** - The current post's content.
-* **Terms** - The terms in a specific taxonomy, connected to the current post or all terms available in a specific taxonomy.
 
 > Tip: Use a conditional statement to check if the template part us beeing used with a single project or not. Can be useful when listing different collection of the taxonomy terms.
 
