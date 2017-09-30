@@ -85,7 +85,7 @@ Create your main navigation as a custom menu in *Appearance->Menus*.
 #### Widgets
 Add a category-widgets to list all your *project_skills* terms to your page-sidebar via *Appearance->Widgets*.
 
-### Tasks
+### Assignment handin
 1. Prepare Wordpress by adding post types, taxonomies and media sizes. 
 2. Register widget areas and theme configurations.
 3. Create and publish all posts via admin dashboard.
